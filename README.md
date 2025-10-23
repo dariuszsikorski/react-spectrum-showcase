@@ -81,6 +81,22 @@ pnpm run build
 
 ---
 
+## Deploy to GitHub Pages
+
+This project is preconfigured to deploy the `dist/` build to GitHub Pages using GitHub Actions.
+
+1) Push to `main` – the workflow builds and deploys automatically.
+
+2) First-time setup in GitHub UI:
+- Go to Repository → Settings → Pages
+- Under "Build and deployment", set Source to "GitHub Actions"
+
+Notes:
+- Vite `base` is set automatically for project pages (e.g. `/<repo>/`) during CI.
+- SPA fallback and `.nojekyll` are handled by the workflow.
+
+---
+
 ## Dependencies
 
 - **@adobe/react-spectrum** (^3.45.0) - Component library

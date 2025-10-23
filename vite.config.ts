@@ -6,6 +6,13 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   
+  // Set base path for GitHub Pages (project pages)
+  // If deploying to https://<user>.github.io/<repo>/, set base to '/<repo>/'
+  // Reads from env GITHUB_REPOSITORY when running in Actions, otherwise empty (local dev)
+  base: process.env.GITHUB_PAGES && process.env.GITHUB_REPOSITORY
+    ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/`
+    : '/',
+  
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')
