@@ -43,27 +43,41 @@ See `100_WORD_ESSENCE_GUIDES.md` for implementation reference and TypeScript int
 
 ```
 src/
-  components/      # Reusable UI components (PhosphorIcon, Grid, Sidebar)
-  contexts/        # Theme and responsive state management
-  hooks/           # useResponsive, useDebounce, useDisclosureState
-  stories/         # Storybook demo components
-  styles/          # SCSS utilities and typography
-  utils/           # Helpers (color, storage, scrolling)
-  views/           # Page-level components
+  components/      # Reusable UI components
+    Demos/        # 76+ React Spectrum component demos
+    Grid/         # Grid layout components
+    PhosphorIcon/ # Icon wrapper component
+    Sidebar/      # Sidebar components
+  contexts/       # Theme and responsive state management
+  hooks/          # useResponsive, useDebounce, useDisclosureState
+  utils/          # Helpers (color, storage, scrolling)
+  assets/         # Static assets (images, icons)
+  App.tsx         # Main application component
+  main.tsx        # Application entry point
 ```
 
 ---
 
-## Development
+## Quick Start
 
-Install dependencies via pnpm workspace:
+Get up and running in seconds:
 
 ```bash
-pnpm run dev       # Start Vite dev server
-pnpm run build     # Build for production
-pnpm run lint      # Run ESLint checks
-pnpm run preview   # Preview production build
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm run dev
+
+# Build for production
+pnpm run build
 ```
+
+**Available Commands:**
+- `pnpm run dev` - Start Vite dev server (http://localhost:5173)
+- `pnpm run build` - Build for production
+- `pnpm run lint` - Run ESLint checks
+- `pnpm run preview` - Preview production build
 
 ---
 

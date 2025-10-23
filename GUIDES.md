@@ -76,13 +76,17 @@ Two-step decision framework: **Step 1 - Identify Component Category:** A) SlotPr
 
 ```
 src/
-  components/      # Reusable: PhosphorIcon, Grid, Sidebar
-  contexts/        # Theme and responsive state
-  hooks/           # useResponsive, useDebounce, useDisclosureState
-  stories/         # Storybook components
-  styles/          # SCSS utilities
-  utils/           # Helpers: color, storage, scrolling
-  views/           # Page-level components
+  components/      # Reusable UI components
+    Demos/        # 76+ React Spectrum component demos
+    Grid/         # Grid layout components
+    PhosphorIcon/ # Icon wrapper component
+    Sidebar/      # Sidebar components
+  contexts/       # Theme and responsive state
+  hooks/          # useResponsive, useDebounce, useDisclosureState
+  utils/          # Helpers: color, storage, scrolling
+  assets/         # Static assets (images, icons)
+  App.tsx         # Main application component
+  main.tsx        # Application entry point
 ```
 
 Convention: CSS Modules for component styles, SCSS for global utilities. Use `.ComponentName` and `.ComponentName_child` for class naming (SCSS nesting pattern). Import styles as modules: `import styles from './Component.module.scss'`. Keep component logic focused, extract logic to utils/hooks. Collocate related files.
@@ -91,6 +95,6 @@ Convention: CSS Modules for component styles, SCSS for global utilities. Use `.C
 
 ## 13. Responsive UI Integration
 
-`@phi/ui-responsive` provides `useResponsive()` hook for viewport detection and scaling. Returns: `{ scale, isMobile, isDesktop, setScale(), cycleScale() }`. Initialize in `main.tsx` before React renders. Body classes `.is-mobile`/`.is-desktop` auto-injected on resize. Scale persists to localStorage. Dynamic breakpoint adjusts with scale (1200px at 125% = 960px effective). Use hook in components for reactive state. Responsive context available project-wide via provider wrapper.
+Standalone `useResponsive()` hook in `src/hooks/useResponsive.ts` provides viewport detection and scaling. Returns: `{ scale, isMobile, isDesktop, setScale(), cycleScale() }`. ResponsiveManager singleton handles state subscription and updates. Body classes `.is-mobile`/`.is-desktop` auto-injected on resize. Scale persists to localStorage. Dynamic breakpoint adjusts with scale (1200px at 125% = 960px effective). Use hook in components for reactive state. No external dependencies - fully self-contained implementation.
 
 ---
