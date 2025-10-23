@@ -2,6 +2,13 @@
 
 Interactive showcase of Adobe React Spectrum components with comprehensive demos, theme switching, responsive design, and accessibility features.
 
+**Live Demo:** https://dariuszsikorski.github.io/react-spectrum-showcase/
+
+<a href="https://dariuszsikorski.github.io/react-spectrum-showcase/">
+  <img src="./public/showca-sescreen.png" alt="React Spectrum Component Showcase" width="100%" loading="lazy" />
+  
+</a>
+
 **Author:** [Dariusz Sikorski](https://dariuszsikorski.pl/) • [GitHub](https://github.com/dariuszsikorski) • [LinkedIn](https://www.linkedin.com/in/dariusz-sikorski-56281b3a/) • [Phicasso.ai](https://phicasso.ai/)
 
 ---
@@ -81,21 +88,7 @@ pnpm run build
 
 ---
 
-## Deploy to GitHub Pages
-
-This project is preconfigured to deploy the `dist/` build to GitHub Pages using GitHub Actions.
-
-1) Push to `main` – the workflow builds and deploys automatically.
-
-2) First-time setup in GitHub UI:
-- Go to Repository → Settings → Pages
-- Under "Build and deployment", set Source to "GitHub Actions"
-
-Notes:
-- Vite `base` is set automatically for project pages (e.g. `/<repo>/`) during CI.
-- SPA fallback and `.nojekyll` are handled by the workflow.
-
----
+<!-- Deployment details were removed after enabling automated GitHub Pages. -->
 
 ## Dependencies
 
