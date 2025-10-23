@@ -5,8 +5,7 @@ Interactive showcase of Adobe React Spectrum components with comprehensive demos
 **Live Demo:** https://dariuszsikorski.github.io/react-spectrum-showcase/
 
 <a href="https://dariuszsikorski.github.io/react-spectrum-showcase/">
-  <img src="./public/showca-sescreen.png" alt="React Spectrum Component Showcase" width="100%" loading="lazy" />
-  
+  <img src="./public/showcase-screen.png" alt="React Spectrum Component Showcase" style="max-width: 100%; height: auto;" loading="lazy" />
 </a>
 
 **Author:** [Dariusz Sikorski](https://dariuszsikorski.pl/) • [GitHub](https://github.com/dariuszsikorski) • [LinkedIn](https://www.linkedin.com/in/dariusz-sikorski-56281b3a/) • [Phicasso.ai](https://phicasso.ai/)
