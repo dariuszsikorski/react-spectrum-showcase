@@ -2,7 +2,7 @@ import { Slider, ButtonGroup, Button, View, Text, Badge, Flex } from '@adobe/rea
 import { useResponsive } from '../../../hooks/useResponsive'
 
 export function UIScaleDemo() {
-  const { scale, isDesktop, viewportWidth, setScale } = useResponsive()
+  const { scale, isDesktop, setScale } = useResponsive()
 
   return (
     <View UNSAFE_className="GridItem_preview">
@@ -30,7 +30,7 @@ export function UIScaleDemo() {
         </ButtonGroup>
 
         <Text UNSAFE_style={{ fontSize: '0.75rem', opacity: 0.7, wordBreak: 'break-all' }}>
-          Viewport: {viewportWidth}px
+          Viewport: {window.innerWidth}px
         </Text>
       </Flex>
     </View>
