@@ -1,4 +1,4 @@
-# React Spectrum Component Gallery
+# React Spectrum Component Showcase
 
 Interactive showcase of Adobe React Spectrum components with comprehensive demos, theme switching, responsive design, and accessibility features.
 
@@ -6,7 +6,7 @@ Interactive showcase of Adobe React Spectrum components with comprehensive demos
 
 ---
 
-## Overview (100 words)
+## Overview
 
 This showcase demonstrates Adobe React Spectrum components with comprehensive demos, theme switching (light/dark), responsive design, and accessibility features. Features include interactive component gallery, theme context management, responsive UI detection, and dynamic scaling. Responsive detection automatically injects `.is-mobile` and `.is-desktop` classes. All components are wrapped in Adobe Spectrum Provider for theme support. Icons use Phosphor library with universal integration pattern.
 
