@@ -1,5 +1,5 @@
 import { Slider, ButtonGroup, Button, View, Text, Badge, Flex } from '@adobe/react-spectrum'
-import { useResponsive } from '../../../hooks/useResponsive'
+import { useResponsive } from '../../hooks/useResponsive'
 
 export function UIScaleDemo() {
   const { scale, isDesktop, setScale } = useResponsive()
