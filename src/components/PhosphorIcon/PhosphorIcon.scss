@@ -1,0 +1,50 @@
+// Base icon wrapper - minimal styling to let Spectrum classes control behavior
+.PhosphorIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// Size classes matching spectrum-Icon--size{Size}
+// These ensure PhosphorIcon has proper dimensions even without Spectrum CSS
+.spectrum-Icon--sizeXXS {
+  width: 10px;
+  height: 10px;
+}
+
+.spectrum-Icon--sizeXS {
+  width: 12px;
+  height: 12px;
+}
+
+.spectrum-Icon--sizeS {
+  width: 16px;
+  height: 16px;
+}
+
+.spectrum-Icon--sizeM {
+  width: 20px;
+  height: 20px;
+}
+
+.spectrum-Icon--sizeL {
+  width: 24px;
+  height: 24px;
+}
+
+.spectrum-Icon--sizeXL {
+  width: 28px;
+  height: 28px;
+}
+
+.spectrum-Icon--sizeXXL {
+  width: 32px;
+  height: 32px;
+}

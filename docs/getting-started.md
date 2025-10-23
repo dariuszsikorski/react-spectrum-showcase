@@ -1,0 +1,109 @@
+---
+source: https://react-spectrum.adobe.com/react-spectrum/getting-started.html
+date: Thu, 16 Oct 2025 01:03:17 GMT
+---
+
+This page describes how to get started building an application with React Spectrum.
+
+* * *
+
+**React Spectrum** is a React implementation of [Spectrum](https://spectrum.adobe.com/), Adobe's design system. It provides components that are adaptive to interactions and screen sizes across devices, and includes full screen reader and keyboard navigation support for accessibility.
+
+* * *
+
+You can install React Spectrum package using a package manager like [npm](https://docs.npmjs.com/cli/npm) or [yarn](https://classic.yarnpkg.com/lang/en/).
+
+```
+yarn add @adobe/react-spectrum
+```
+
+If you prefer, you can also install components from individually versioned packages. See the [versioning](https://react-spectrum.adobe.com/react-spectrum/versioning.html) docs for more details.
+
+* * *
+
+React Spectrum works with most popular build tooling, like [Parcel](https://parceljs.org/) and [create-react-app](https://create-react-app.dev/), or lower level tools like [webpack](https://webpack.js.org/).
+
+The only requirement is CSS importing support. This is built into Parcel and create-react-app out of the box. If you're using React Spectrum with raw webpack, then you'll need to configure [css-loader](https://webpack.js.org/loaders/css-loader/).
+
+If your application is written in TypeScript, be sure to add [@types/react](https://www.npmjs.com/package/@types/react) and [@types/react-dom](https://www.npmjs.com/package/@types/react-dom) to your project's dependencies as per React's [type checking guide](https://reactjs.org/docs/static-type-checking.html#type-definitions). React Spectrum components are published with their type definitions, so you can take advantage of static type checking, IDE autocomplete, and other TypeScript features.
+
+* * *
+
+All React Spectrum applications start with a [Provider](https://react-spectrum.adobe.com/react-spectrum/Provider.html). The `Provider` specifies the theme to use, along with application level settings like the locale. Inside the `Provider`, you should render your application, including all React Spectrum components.
+
+```
+import {Button, defaultTheme, Provider} from '@adobe/react-spectrum';
+
+function App() {
+  return (
+    (
+      <Provider theme={defaultTheme}>
+        <Button
+          variant="accent"
+          onPress={() => alert('Hey there!')}
+        >
+          Hello React Spectrum!
+        </Button>
+      </Provider>
+    )
+  );
+}
+```
+
+```
+import {
+  Button,
+  defaultTheme,
+  Provider
+} from '@adobe/react-spectrum';
+
+function App() {
+  return (
+    (
+      <Provider theme={defaultTheme}>
+        <Button
+          variant="accent"
+          onPress={() => alert('Hey there!')}
+        >
+          Hello React Spectrum!
+        </Button>
+      </Provider>
+    )
+  );
+}
+```
+
+```
+import {
+  Button,
+  defaultTheme,
+  Provider
+} from '@adobe/react-spectrum';
+
+function App() {
+  return (
+    (
+      <Provider
+        theme={defaultTheme}
+      >
+        <Button
+          variant="accent"
+          onPress={() =>
+            alert(
+              'Hey there!'
+            )}
+        >
+          Hello React
+          Spectrum!
+        </Button>
+      </Provider>
+    )
+  );
+}
+```
+
+See the [Provider](https://react-spectrum.adobe.com/react-spectrum/Provider.html) and [Button](https://react-spectrum.adobe.com/react-spectrum/Button.html) docs for more information about the components used in this example.
+
+* * *
+
+Now that you've set up your app, you can read the documentation for the individual components to understand them in detail. We also have high level documentation about topics like [theming](https://react-spectrum.adobe.com/react-spectrum/theming.html), [custom styling](https://react-spectrum.adobe.com/react-spectrum/styling.html), [layout](https://react-spectrum.adobe.com/react-spectrum/layout.html), and [testing](https://react-spectrum.adobe.com/react-spectrum/testing.html).

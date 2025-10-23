@@ -1,0 +1,233 @@
+.GridGallery_container {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Removed density controls UI */
+
+.GridGallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+.GridGallery_category {
+  width: 100%;
+}
+
+.GridGallery_categoryTitle {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--spectrum-global-color-gray-900);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--spectrum-global-color-gray-200);
+}
+
+.GridGallery_categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--grid-item-min, 20rem), 1fr));
+  gap: var(--grid-gap, 1rem);
+  align-items: stretch;
+  width: 100%;
+}
+
+.GridItem {
+  inline-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.GridItem_inner {
+  inline-size: 100%;
+  max-inline-size: var(--grid-item-max, 24rem);
+  margin-inline: auto;
+  padding: var(--grid-item-padding, 1rem);
+  border: 1px solid var(--spectrum-global-color-gray-300);
+  border-radius: 0.5rem;
+  background: var(--spectrum-global-color-gray-50);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  cursor: default;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.GridItem_inner:hover {
+  border-color: var(--spectrum-global-color-blue-400);
+  background: var(--spectrum-global-color-blue-50);
+}
+
+.GridItem_title {
+  margin: 0;
+}
+
+.GridItem_preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 5rem;
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Responsive presets based on layout */
+.GridGallery.is-mobile {
+  --grid-item-min: 16rem;
+  --grid-item-max: 22rem;
+  --grid-item-padding: 0.75rem;
+  --grid-gap: 0.75rem;
+}
+
+.GridGallery.is-desktop {
+  --grid-item-min: 20rem;
+  --grid-item-max: 26rem;
+  --grid-item-padding: 1rem;
+  --grid-gap: 1rem;
+}
+
+/* Ultra-wide screen optimization */
+@container (min-width: 2000px) {
+  .GridGallery {
+    --grid-item-min: 18rem;
+    --grid-item-max: 26rem;
+    --grid-gap: 1.25rem;
+  }
+}
+
+@container (min-width: 3000px) {
+  .GridGallery {
+    --grid-item-min: 20rem;
+    --grid-item-max: 28rem;
+    --grid-gap: 1.5rem;
+  }
+}
+
+@container (min-width: 4000px) {
+  .GridGallery {
+    --grid-item-min: 22rem;
+    --grid-item-max: 30rem;
+    --grid-gap: 1.75rem;
+  }
+}
+
+/* Dark mode button fixes */
+[data-color-scheme="dark"] .spectrum-Button {
+  color: var(--spectrum-global-color-gray-50) !important;
+  background-color: var(--spectrum-global-color-gray-600) !important;
+  border-color: var(--spectrum-global-color-gray-500) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-Button:hover {
+  background-color: var(--spectrum-global-color-gray-500) !important;
+  border-color: var(--spectrum-global-color-gray-400) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-Button:focus {
+  border-color: var(--spectrum-global-color-blue-400) !important;
+  box-shadow: 0 0 0 2px var(--spectrum-global-color-blue-400) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-ActionButton {
+  color: var(--spectrum-global-color-gray-50) !important;
+  background-color: var(--spectrum-global-color-gray-600) !important;
+  border-color: var(--spectrum-global-color-gray-500) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-ActionButton:hover {
+  background-color: var(--spectrum-global-color-gray-500) !important;
+  border-color: var(--spectrum-global-color-gray-400) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-ActionButton:focus {
+  border-color: var(--spectrum-global-color-blue-400) !important;
+  box-shadow: 0 0 0 2px var(--spectrum-global-color-blue-400) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-ToggleButton {
+  color: var(--spectrum-global-color-gray-50) !important;
+  background-color: var(--spectrum-global-color-gray-600) !important;
+  border-color: var(--spectrum-global-color-gray-500) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-ToggleButton:hover {
+  background-color: var(--spectrum-global-color-gray-500) !important;
+  border-color: var(--spectrum-global-color-gray-400) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-ToggleButton:focus {
+  border-color: var(--spectrum-global-color-blue-400) !important;
+  box-shadow: 0 0 0 2px var(--spectrum-global-color-blue-400) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-LogicButton {
+  color: var(--spectrum-global-color-gray-50) !important;
+  background-color: var(--spectrum-global-color-gray-600) !important;
+  border-color: var(--spectrum-global-color-gray-500) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-LogicButton:hover {
+  background-color: var(--spectrum-global-color-gray-500) !important;
+  border-color: var(--spectrum-global-color-gray-400) !important;
+}
+
+[data-color-scheme="dark"] .spectrum-LogicButton:focus {
+  border-color: var(--spectrum-global-color-blue-400) !important;
+  box-shadow: 0 0 0 2px var(--spectrum-global-color-blue-400) !important;
+}
+
+/* Documentation link icon colors */
+.GridItem a .PhosphorIcon {
+  color: var(--spectrum-global-color-gray-600) !important;
+}
+
+[data-color-scheme="dark"] .GridItem a .PhosphorIcon {
+  color: var(--spectrum-global-color-gray-400) !important;
+}
+
+/* Grid item highlight animation */
+.GridItem--highlighted .GridItem_inner {
+  border: 1px solid var(--spectrum-global-color-blue-500) !important;
+  outline: 1px solid var(--spectrum-global-color-blue-500);
+  animation: highlightFade 3s ease-out forwards;
+}
+
+@keyframes highlightFade {
+  0% {
+    border-color: var(--spectrum-global-color-blue-500);
+    outline-color: var(--spectrum-global-color-blue-500);
+    box-shadow: 0 0 0 1px var(--spectrum-global-color-blue-200);
+  }
+  100% {
+    border-color: var(--spectrum-global-color-gray-300);
+    outline-color: var(--spectrum-global-color-gray-300);
+    box-shadow: none;
+  }
+}
+
+[data-color-scheme="dark"] .GridItem--highlighted .GridItem_inner {
+  border: 1px solid var(--spectrum-global-color-blue-400) !important;
+  outline: 1px solid var(--spectrum-global-color-blue-400);
+  animation: highlightFadeDark 3s ease-out forwards;
+}
+
+@keyframes highlightFadeDark {
+  0% {
+    border-color: var(--spectrum-global-color-blue-400);
+    outline-color: var(--spectrum-global-color-blue-400);
+    box-shadow: 0 0 0 1px var(--spectrum-global-color-blue-300);
+  }
+  100% {
+    border-color: var(--spectrum-global-color-gray-300);
+    outline-color: var(--spectrum-global-color-gray-300);
+    box-shadow: none;
+  }
+}
+
+
