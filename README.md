@@ -42,7 +42,7 @@ Icon handling follows universal pattern documented in `100_WORD_ESSENCE_GUIDES.m
 - **Gap Spacing:** Use `size-50` (4px) for icon+text compact layouts
 - **Size Inheritance:** Icons inherit 16px default from IconContext
 
-See `100_WORD_ESSENCE_GUIDES.md` for implementation reference and TypeScript integration patterns.
+See `GUIDES.md` for implementation reference and TypeScript integration patterns.
 
 ---
 
@@ -102,7 +102,7 @@ pnpm run build
 
 ## Technical Guidelines
 
-Detailed technical patterns and troubleshooting documented in `100_WORD_ESSENCE_GUIDES.md` covering: icon alignment, theme switching, component structure patterns, Spectrum integration mechanics, implementation strategies, and TypeScript integration.
+Detailed technical patterns and troubleshooting documented in `GUIDES.md` covering: icon alignment, theme switching, component structure patterns, Spectrum integration mechanics, implementation strategies, and TypeScript integration.
 
 ---
 
@@ -111,3 +111,13 @@ Detailed technical patterns and troubleshooting documented in `100_WORD_ESSENCE_
 Comprehensive gallery of 76+ React Spectrum components including: Provider (theme), ColorPicker, ColorEditor, Calendar, Button, Slider, ButtonGroup, Badge, ActionButton, ActionGroup, ToggleButton, FileTrigger, Menu, Dialog, ListView, TableView, Form fields, Accordion, Disclosure, TreeView, TagGroup, Popover, Tooltip, and many more.
 
 All components wrapped in Provider with theme support, responsive design, and accessibility features.
+
+---
+
+## Author
+
+**Dariusz Sikorski**  
+Website: https://dariuszsikorski.pl/  
+GitHub: https://github.com/dariuszsikorski  
+LinkedIn: https://www.linkedin.com/in/dariusz-sikorski-56281b3a/  
+Phicasso.ai: https://phicasso.ai/
