@@ -1,7 +1,7 @@
 {
   "name": "react-spectrum-showcase",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
   "author": "Dariusz Sikorski <https://dariuszsikorski.pl>",
   "scripts": {
