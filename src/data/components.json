@@ -83,7 +83,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Accordion.html",
         "webComponent": "/components/accordion/",
         "storybook": "/?path=/story/accordion"
       }
@@ -528,7 +527,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/ActionButton.html",
         "webComponent": "/components/action-button/",
         "storybook": "/?path=/story/action-button"
       }
@@ -585,7 +583,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Alert.html",
         "webComponent": "/components/alert/",
         "storybook": "/?path=/story/alert"
       }
@@ -610,7 +607,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Asset.html",
         "webComponent": "/components/asset/",
         "storybook": "/?path=/story/asset"
       }
@@ -667,7 +663,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Avatar.html",
         "webComponent": "/components/avatar/",
         "storybook": "/?path=/story/avatar"
       }
@@ -708,7 +703,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Badge.html",
         "webComponent": "/components/badge/",
         "storybook": "/?path=/story/badge"
       }
@@ -749,7 +743,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Breadcrumbs.html",
         "webComponent": "/components/breadcrumbs/",
         "storybook": "/?path=/story/breadcrumbs"
       }
@@ -1510,7 +1503,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Button.html",
         "webComponent": "/components/button/",
         "storybook": "/?path=/story/button"
       }
@@ -1583,7 +1575,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Card.html",
         "webComponent": "/components/card/",
         "storybook": "/?path=/story/card"
       }
@@ -1732,7 +1723,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Checkbox.html",
         "webComponent": "/components/checkbox/",
         "storybook": "/?path=/story/checkbox"
       }
@@ -1761,7 +1751,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Coachindicator.html",
         "webComponent": "/components/coachindicator/",
         "storybook": "/?path=/story/coachindicator"
       }
@@ -1810,7 +1799,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Coachmark.html",
         "webComponent": "/components/coachmark/",
         "storybook": "/?path=/story/coachmark"
       }
@@ -1951,7 +1939,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Color.html",
         "webComponent": "/components/color/",
         "storybook": "/?path=/story/color"
       }
@@ -2056,7 +2043,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/ComboBox.html",
         "webComponent": "/components/combobox/",
         "storybook": "/?path=/story/combobox"
       }
@@ -2085,7 +2071,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Contextual.html",
         "webComponent": "/components/contextual/",
         "storybook": "/?path=/story/contextual"
       }
@@ -2238,7 +2223,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Dialog.html",
         "webComponent": "/components/dialog/",
         "storybook": "/?path=/story/dialog"
       }
@@ -2283,7 +2267,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Divider.html",
         "webComponent": "/components/divider/",
         "storybook": "/?path=/story/divider"
       }
@@ -2312,7 +2295,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/DropZone.html",
         "webComponent": "/components/dropzone/",
         "storybook": "/?path=/story/dropzone"
       }
@@ -2357,7 +2339,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Field.html",
         "webComponent": "/components/field/",
         "storybook": "/?path=/story/field"
       }
@@ -2382,7 +2363,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Grid.html",
         "webComponent": "/components/grid/",
         "storybook": "/?path=/story/grid"
       }
@@ -2427,7 +2407,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Help.html",
         "webComponent": "/components/help/",
         "storybook": "/?path=/story/help"
       }
@@ -2460,7 +2439,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Icon.html",
         "webComponent": "/components/icon/",
         "storybook": "/?path=/story/icon"
       }
@@ -2497,7 +2475,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Icons.html",
         "webComponent": "/components/icons/",
         "storybook": "/?path=/story/icons"
       }
@@ -2514,7 +2491,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Illustratedmessage.html",
         "webComponent": "/components/illustratedmessage/",
         "storybook": "/?path=/story/illustratedmessage"
       }
@@ -2583,7 +2559,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Infield.html",
         "webComponent": "/components/infield/",
         "storybook": "/?path=/story/infield"
       }
@@ -2636,7 +2611,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Link.html",
         "webComponent": "/components/link/",
         "storybook": "/?path=/story/link"
       }
@@ -2789,7 +2763,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Menu.html",
         "webComponent": "/components/menu/",
         "storybook": "/?path=/story/menu"
       }
@@ -2830,7 +2803,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Meter.html",
         "webComponent": "/components/meter/",
         "storybook": "/?path=/story/meter"
       }
@@ -2927,7 +2899,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Number.html",
         "webComponent": "/components/number/",
         "storybook": "/?path=/story/number"
       }
@@ -3164,7 +3135,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Overlay.html",
         "webComponent": "/components/overlay/",
         "storybook": "/?path=/story/overlay"
       }
@@ -3389,7 +3359,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Picker.html",
         "webComponent": "/components/picker/",
         "storybook": "/?path=/story/picker"
       }
@@ -3438,7 +3407,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Popover.html",
         "webComponent": "/components/popover/",
         "storybook": "/?path=/story/popover"
       }
@@ -3515,7 +3483,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Progress.html",
         "webComponent": "/components/progress/",
         "storybook": "/?path=/story/progress"
       }
@@ -3584,7 +3551,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Radio.html",
         "webComponent": "/components/radio/",
         "storybook": "/?path=/story/radio"
       }
@@ -3637,7 +3603,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Search.html",
         "webComponent": "/components/search/",
         "storybook": "/?path=/story/search"
       }
@@ -3674,7 +3639,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Sidenav.html",
         "webComponent": "/components/sidenav/",
         "storybook": "/?path=/story/sidenav"
       }
@@ -3863,7 +3827,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Slider.html",
         "webComponent": "/components/slider/",
         "storybook": "/?path=/story/slider"
       }
@@ -3912,7 +3875,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Split.html",
         "webComponent": "/components/split/",
         "storybook": "/?path=/story/split"
       }
@@ -3945,7 +3907,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Statuslight.html",
         "webComponent": "/components/statuslight/",
         "storybook": "/?path=/story/statuslight"
       }
@@ -3962,7 +3923,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Styles.html",
         "webComponent": "/components/styles/",
         "storybook": "/?path=/story/styles"
       }
@@ -4071,7 +4031,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Swatch.html",
         "webComponent": "/components/swatch/",
         "storybook": "/?path=/story/swatch"
       }
@@ -4136,7 +4095,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Switch.html",
         "webComponent": "/components/switch/",
         "storybook": "/?path=/story/switch"
       }
@@ -4197,7 +4155,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Table.html",
         "webComponent": "/components/table/",
         "storybook": "/?path=/story/table"
       }
@@ -4386,7 +4343,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Tabs.html",
         "webComponent": "/components/tabs/",
         "storybook": "/?path=/story/tabs"
       }
@@ -4423,7 +4379,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Tags.html",
         "webComponent": "/components/tags/",
         "storybook": "/?path=/story/tags"
       }
@@ -4512,7 +4467,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Textarea.html",
         "webComponent": "/components/textarea/",
         "storybook": "/?path=/story/textarea"
       }
@@ -4593,7 +4547,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Textfield.html",
         "webComponent": "/components/textfield/",
         "storybook": "/?path=/story/textfield"
       }
@@ -4626,7 +4579,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Theme.html",
         "webComponent": "/components/theme/",
         "storybook": "/?path=/story/theme"
       }
@@ -4727,7 +4679,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Thumbnail.html",
         "webComponent": "/components/thumbnail/",
         "storybook": "/?path=/story/thumbnail"
       }
@@ -4780,7 +4731,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Toast.html",
         "webComponent": "/components/toast/",
         "storybook": "/?path=/story/toast"
       }
@@ -4845,7 +4795,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Tooltip.html",
         "webComponent": "/components/tooltip/",
         "storybook": "/?path=/story/tooltip"
       }
@@ -4890,7 +4839,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Top.html",
         "webComponent": "/components/top/",
         "storybook": "/?path=/story/top"
       }
@@ -4911,7 +4859,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Tray.html",
         "webComponent": "/components/tray/",
         "storybook": "/?path=/story/tray"
       }
@@ -4928,7 +4875,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Truncated.html",
         "webComponent": "/components/truncated/",
         "storybook": "/?path=/story/truncated"
       }
@@ -4945,7 +4891,6 @@
         }
       ],
       "links": {
-        "reactSpectrum": "/react-spectrum/Underlay.html",
         "webComponent": "/components/underlay/",
         "storybook": "/?path=/story/underlay"
       }

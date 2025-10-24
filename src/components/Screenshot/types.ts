@@ -4,7 +4,6 @@ export interface ComponentVariant {
 }
 
 export interface ComponentLink {
-  reactSpectrum?: string
   webComponent?: string
   storybook?: string
 }

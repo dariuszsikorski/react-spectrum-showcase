@@ -98,18 +98,6 @@ export function ScreenshotModal({ component, isOpen, onClose }: ScreenshotModalP
         </div>
         <div className="ScreenshotModal_footer">
           <div className="ScreenshotModal_actions">
-            {component.links.reactSpectrum && (
-              <Button variant="secondary">
-                <a 
-                  href={BASE_URLS.reactSpectrum + component.links.reactSpectrum} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  style={{ color: 'inherit', textDecoration: 'none' }}
-                >
-                  React Spectrum Docs
-                </a>
-              </Button>
-            )}
             {component.links.storybook && (
               <Button variant="secondary">
                 <a 
