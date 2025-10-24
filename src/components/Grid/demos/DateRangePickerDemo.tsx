@@ -46,3 +46,4 @@ export function DateRangePickerDemo() {
 }
 
 export default DateRangePickerDemo
+

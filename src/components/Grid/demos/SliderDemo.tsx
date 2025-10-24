@@ -28,3 +28,4 @@ export function SliderDemo() {
 }
 
 export default SliderDemo
+

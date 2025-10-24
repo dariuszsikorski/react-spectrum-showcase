@@ -28,3 +28,4 @@ export function CheckboxDemo() {
 }
 
 export default CheckboxDemo
+

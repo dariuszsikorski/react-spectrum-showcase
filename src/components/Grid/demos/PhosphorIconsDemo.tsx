@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { View, Flex, Text } from '@adobe/react-spectrum'
-import { useTheme } from '../../contexts/theme-context'
+import { useTheme } from '../../../contexts/theme-context'
 import { 
   ChatCircle, 
   User, 
@@ -110,3 +110,4 @@ export function PhosphorIconsDemo() {
 }
 
 export default PhosphorIconsDemo
+

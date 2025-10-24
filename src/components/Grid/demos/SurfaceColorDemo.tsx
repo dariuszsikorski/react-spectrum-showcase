@@ -1,7 +1,7 @@
 import React from 'react'
 import { ColorPicker, ColorEditor, View, Text, Flex } from '@adobe/react-spectrum'
 import { parseColor } from '@adobe/react-spectrum'
-import { useTheme } from '../../contexts/theme-context'
+import { useTheme } from '../../../contexts/theme-context'
 
 export function SurfaceColorDemo() {
   const { colorScheme } = useTheme()
@@ -53,3 +53,4 @@ export function SurfaceColorDemo() {
 }
 
 export default SurfaceColorDemo
+

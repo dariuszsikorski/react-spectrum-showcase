@@ -1,0 +1,4954 @@
+{
+  "categories": [
+    "Buttons",
+    "Collections",
+    "Content",
+    "Forms",
+    "Icons",
+    "Layout",
+    "Navigation",
+    "Overlays",
+    "Status"
+  ],
+  "components": [
+    {
+      "id": "accordion",
+      "title": "Accordion",
+      "category": "Navigation",
+      "defaultImage": "accordion--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "accordion--default--2x.png"
+        },
+        {
+          "name": "-allow-multiple",
+          "filename": "accordion--allow-multiple--2x.png"
+        },
+        {
+          "name": "-disabled",
+          "filename": "accordion--disabled--2x.png"
+        },
+        {
+          "name": "-open",
+          "filename": "accordion--open--2x.png"
+        },
+        {
+          "name": "densities-compact--l",
+          "filename": "accordion-densities-compact--l--2x.png"
+        },
+        {
+          "name": "densities-compact--m",
+          "filename": "accordion-densities-compact--m--2x.png"
+        },
+        {
+          "name": "densities-compact--s",
+          "filename": "accordion-densities-compact--s--2x.png"
+        },
+        {
+          "name": "densities-compact--xl",
+          "filename": "accordion-densities-compact--xl--2x.png"
+        },
+        {
+          "name": "densities-spacious--l",
+          "filename": "accordion-densities-spacious--l--2x.png"
+        },
+        {
+          "name": "densities-spacious--m",
+          "filename": "accordion-densities-spacious--m--2x.png"
+        },
+        {
+          "name": "densities-spacious--s",
+          "filename": "accordion-densities-spacious--s--2x.png"
+        },
+        {
+          "name": "densities-spacious--xl",
+          "filename": "accordion-densities-spacious--xl--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "accordion-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "accordion-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "accordion-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--xl",
+          "filename": "accordion-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Accordion.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/accordion/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/accordion"
+      }
+    },
+    {
+      "id": "action",
+      "title": "Action",
+      "category": "Buttons",
+      "defaultImage": "action-menu--default--2x.png",
+      "variants": [
+        {
+          "name": "bar--default",
+          "filename": "action-bar--default--2x.png"
+        },
+        {
+          "name": "group--default",
+          "filename": "action-group--default--2x.png"
+        },
+        {
+          "name": "menu--default",
+          "filename": "action-menu--default--2x.png"
+        },
+        {
+          "name": "bar--emphasized",
+          "filename": "action-bar--emphasized--2x.png"
+        },
+        {
+          "name": "bar--fixed",
+          "filename": "action-bar--fixed--2x.png"
+        },
+        {
+          "name": "bar--flexible",
+          "filename": "action-bar--flexible--2x.png"
+        },
+        {
+          "name": "bar--has-action-menu-as-child",
+          "filename": "action-bar--has-action-menu-as-child--2x.png"
+        },
+        {
+          "name": "button--href",
+          "filename": "action-button--href--2x.png"
+        },
+        {
+          "name": "button--href-with-target",
+          "filename": "action-button--href-with-target--2x.png"
+        },
+        {
+          "name": "button--toggles",
+          "filename": "action-button--toggles--2x.png"
+        },
+        {
+          "name": "button-emphasized--l",
+          "filename": "action-button-emphasized--l--2x.png"
+        },
+        {
+          "name": "button-emphasized--m",
+          "filename": "action-button-emphasized--m--2x.png"
+        },
+        {
+          "name": "button-emphasized--s",
+          "filename": "action-button-emphasized--s--2x.png"
+        },
+        {
+          "name": "button-emphasized--xl",
+          "filename": "action-button-emphasized--xl--2x.png"
+        },
+        {
+          "name": "button-emphasized--xs",
+          "filename": "action-button-emphasized--xs--2x.png"
+        },
+        {
+          "name": "button-emphasized-quiet--l",
+          "filename": "action-button-emphasized-quiet--l--2x.png"
+        },
+        {
+          "name": "button-emphasized-quiet--m",
+          "filename": "action-button-emphasized-quiet--m--2x.png"
+        },
+        {
+          "name": "button-emphasized-quiet--s",
+          "filename": "action-button-emphasized-quiet--s--2x.png"
+        },
+        {
+          "name": "button-emphasized-quiet--xl",
+          "filename": "action-button-emphasized-quiet--xl--2x.png"
+        },
+        {
+          "name": "button-emphasized-quiet--xs",
+          "filename": "action-button-emphasized-quiet--xs--2x.png"
+        },
+        {
+          "name": "button-standard--l",
+          "filename": "action-button-standard--l--2x.png"
+        },
+        {
+          "name": "button-standard--m",
+          "filename": "action-button-standard--m--2x.png"
+        },
+        {
+          "name": "button-standard--s",
+          "filename": "action-button-standard--s--2x.png"
+        },
+        {
+          "name": "button-standard--xl",
+          "filename": "action-button-standard--xl--2x.png"
+        },
+        {
+          "name": "button-standard--xs",
+          "filename": "action-button-standard--xs--2x.png"
+        },
+        {
+          "name": "button-standard-quiet--l",
+          "filename": "action-button-standard-quiet--l--2x.png"
+        },
+        {
+          "name": "button-standard-quiet--m",
+          "filename": "action-button-standard-quiet--m--2x.png"
+        },
+        {
+          "name": "button-standard-quiet--s",
+          "filename": "action-button-standard-quiet--s--2x.png"
+        },
+        {
+          "name": "button-standard-quiet--xl",
+          "filename": "action-button-standard-quiet--xl--2x.png"
+        },
+        {
+          "name": "button-standard-quiet--xs",
+          "filename": "action-button-standard-quiet--xs--2x.png"
+        },
+        {
+          "name": "button-static-black--l",
+          "filename": "action-button-static-black--l--2x.png"
+        },
+        {
+          "name": "button-static-black--m",
+          "filename": "action-button-static-black--m--2x.png"
+        },
+        {
+          "name": "button-static-black--s",
+          "filename": "action-button-static-black--s--2x.png"
+        },
+        {
+          "name": "button-static-black--xl",
+          "filename": "action-button-static-black--xl--2x.png"
+        },
+        {
+          "name": "button-static-black--xs",
+          "filename": "action-button-static-black--xs--2x.png"
+        },
+        {
+          "name": "button-static-black-quiet--l",
+          "filename": "action-button-static-black-quiet--l--2x.png"
+        },
+        {
+          "name": "button-static-black-quiet--m",
+          "filename": "action-button-static-black-quiet--m--2x.png"
+        },
+        {
+          "name": "button-static-black-quiet--s",
+          "filename": "action-button-static-black-quiet--s--2x.png"
+        },
+        {
+          "name": "button-static-black-quiet--xl",
+          "filename": "action-button-static-black-quiet--xl--2x.png"
+        },
+        {
+          "name": "button-static-black-quiet--xs",
+          "filename": "action-button-static-black-quiet--xs--2x.png"
+        },
+        {
+          "name": "button-static-white--l",
+          "filename": "action-button-static-white--l--2x.png"
+        },
+        {
+          "name": "button-static-white--m",
+          "filename": "action-button-static-white--m--2x.png"
+        },
+        {
+          "name": "button-static-white--s",
+          "filename": "action-button-static-white--s--2x.png"
+        },
+        {
+          "name": "button-static-white--xl",
+          "filename": "action-button-static-white--xl--2x.png"
+        },
+        {
+          "name": "button-static-white--xs",
+          "filename": "action-button-static-white--xs--2x.png"
+        },
+        {
+          "name": "button-static-white-quiet--l",
+          "filename": "action-button-static-white-quiet--l--2x.png"
+        },
+        {
+          "name": "button-static-white-quiet--m",
+          "filename": "action-button-static-white-quiet--m--2x.png"
+        },
+        {
+          "name": "button-static-white-quiet--s",
+          "filename": "action-button-static-white-quiet--s--2x.png"
+        },
+        {
+          "name": "button-static-white-quiet--xl",
+          "filename": "action-button-static-white-quiet--xl--2x.png"
+        },
+        {
+          "name": "button-static-white-quiet--xs",
+          "filename": "action-button-static-white-quiet--xs--2x.png"
+        },
+        {
+          "name": "group--compact",
+          "filename": "action-group--compact--2x.png"
+        },
+        {
+          "name": "group--compact-icons-only",
+          "filename": "action-group--compact-icons-only--2x.png"
+        },
+        {
+          "name": "group--compact-justified-icons-only",
+          "filename": "action-group--compact-justified-icons-only--2x.png"
+        },
+        {
+          "name": "group--compact-quiet-icons-only",
+          "filename": "action-group--compact-quiet-icons-only--2x.png"
+        },
+        {
+          "name": "group--compact-quiet-vertical-icons-only",
+          "filename": "action-group--compact-quiet-vertical-icons-only--2x.png"
+        },
+        {
+          "name": "group--compact-vertical",
+          "filename": "action-group--compact-vertical--2x.png"
+        },
+        {
+          "name": "group--compact-vertical-icons-only",
+          "filename": "action-group--compact-vertical-icons-only--2x.png"
+        },
+        {
+          "name": "group--has-action-menu-as-child",
+          "filename": "action-group--has-action-menu-as-child--2x.png"
+        },
+        {
+          "name": "group--icons-only",
+          "filename": "action-group--icons-only--2x.png"
+        },
+        {
+          "name": "group--justified",
+          "filename": "action-group--justified--2x.png"
+        },
+        {
+          "name": "group--justified-icons-only",
+          "filename": "action-group--justified-icons-only--2x.png"
+        },
+        {
+          "name": "group--quiet-icons-only",
+          "filename": "action-group--quiet-icons-only--2x.png"
+        },
+        {
+          "name": "group--selects-multiple",
+          "filename": "action-group--selects-multiple--2x.png"
+        },
+        {
+          "name": "group--selects-multiple-controlled",
+          "filename": "action-group--selects-multiple-controlled--2x.png"
+        },
+        {
+          "name": "group--selects-multiple-with-tooltips",
+          "filename": "action-group--selects-multiple-with-tooltips--2x.png"
+        },
+        {
+          "name": "group--selects-single",
+          "filename": "action-group--selects-single--2x.png"
+        },
+        {
+          "name": "group--vertical",
+          "filename": "action-group--vertical--2x.png"
+        },
+        {
+          "name": "group--vertical-icons-only",
+          "filename": "action-group--vertical-icons-only--2x.png"
+        },
+        {
+          "name": "group--vertical-quiet-icons-only",
+          "filename": "action-group--vertical-quiet-icons-only--2x.png"
+        },
+        {
+          "name": "group-sizes--l",
+          "filename": "action-group-sizes--l--2x.png"
+        },
+        {
+          "name": "group-sizes--l-vertical",
+          "filename": "action-group-sizes--l-vertical--2x.png"
+        },
+        {
+          "name": "group-sizes--m",
+          "filename": "action-group-sizes--m--2x.png"
+        },
+        {
+          "name": "group-sizes--m-vertical",
+          "filename": "action-group-sizes--m-vertical--2x.png"
+        },
+        {
+          "name": "group-sizes--s",
+          "filename": "action-group-sizes--s--2x.png"
+        },
+        {
+          "name": "group-sizes--s-vertical",
+          "filename": "action-group-sizes--s-vertical--2x.png"
+        },
+        {
+          "name": "group-sizes--xl",
+          "filename": "action-group-sizes--xl--2x.png"
+        },
+        {
+          "name": "group-sizes--xl-vertical",
+          "filename": "action-group-sizes--xl-vertical--2x.png"
+        },
+        {
+          "name": "group-sizes--xs",
+          "filename": "action-group-sizes--xs--2x.png"
+        },
+        {
+          "name": "group-sizes--xs-vertical",
+          "filename": "action-group-sizes--xs-vertical--2x.png"
+        },
+        {
+          "name": "group-tooltips--controlled",
+          "filename": "action-group-tooltips--controlled--2x.png"
+        },
+        {
+          "name": "group-tooltips--justified",
+          "filename": "action-group-tooltips--justified--2x.png"
+        },
+        {
+          "name": "group-tooltips--selects-multiple",
+          "filename": "action-group-tooltips--selects-multiple--2x.png"
+        },
+        {
+          "name": "group-tooltips--selects-single",
+          "filename": "action-group-tooltips--selects-single--2x.png"
+        },
+        {
+          "name": "group-tooltips--vertical",
+          "filename": "action-group-tooltips--vertical--2x.png"
+        },
+        {
+          "name": "menu--controlled",
+          "filename": "action-menu--controlled--2x.png"
+        },
+        {
+          "name": "menu--custom-icon",
+          "filename": "action-menu--custom-icon--2x.png"
+        },
+        {
+          "name": "menu--directive",
+          "filename": "action-menu--directive--2x.png"
+        },
+        {
+          "name": "menu--force-popover-on-mobile",
+          "filename": "action-menu--force-popover-on-mobile--2x.png"
+        },
+        {
+          "name": "menu--groups",
+          "filename": "action-menu--groups--2x.png"
+        },
+        {
+          "name": "menu--groups-with-selects",
+          "filename": "action-menu--groups-with-selects--2x.png"
+        },
+        {
+          "name": "menu--icon-only",
+          "filename": "action-menu--icon-only--2x.png"
+        },
+        {
+          "name": "menu--label-only",
+          "filename": "action-menu--label-only--2x.png"
+        },
+        {
+          "name": "menu--menu-item-alerts",
+          "filename": "action-menu--menu-item-alerts--2x.png"
+        },
+        {
+          "name": "menu--quiet",
+          "filename": "action-menu--quiet--2x.png"
+        },
+        {
+          "name": "menu--selects",
+          "filename": "action-menu--selects--2x.png"
+        },
+        {
+          "name": "menu--static-black",
+          "filename": "action-menu--static-black--2x.png"
+        },
+        {
+          "name": "menu--static-white",
+          "filename": "action-menu--static-white--2x.png"
+        },
+        {
+          "name": "menu--submenu",
+          "filename": "action-menu--submenu--2x.png"
+        },
+        {
+          "name": "menu--tooltip-description-and-placement",
+          "filename": "action-menu--tooltip-description-and-placement--2x.png"
+        },
+        {
+          "name": "menu--with-scroll-event",
+          "filename": "action-menu--with-scroll-event--2x.png"
+        },
+        {
+          "name": "menu-sizes--l",
+          "filename": "action-menu-sizes--l--2x.png"
+        },
+        {
+          "name": "menu-sizes--l-open",
+          "filename": "action-menu-sizes--l-open--2x.png"
+        },
+        {
+          "name": "menu-sizes--m",
+          "filename": "action-menu-sizes--m--2x.png"
+        },
+        {
+          "name": "menu-sizes--m-open",
+          "filename": "action-menu-sizes--m-open--2x.png"
+        },
+        {
+          "name": "menu-sizes--s",
+          "filename": "action-menu-sizes--s--2x.png"
+        },
+        {
+          "name": "menu-sizes--s-open",
+          "filename": "action-menu-sizes--s-open--2x.png"
+        },
+        {
+          "name": "menu-sizes--xl",
+          "filename": "action-menu-sizes--xl--2x.png"
+        },
+        {
+          "name": "menu-sizes--xl-open",
+          "filename": "action-menu-sizes--xl-open--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Action.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/action/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/action"
+      }
+    },
+    {
+      "id": "alert",
+      "title": "Alert",
+      "category": "Overlays",
+      "defaultImage": "alert-banner--default--2x.png",
+      "variants": [
+        {
+          "name": "banner--default",
+          "filename": "alert-banner--default--2x.png"
+        },
+        {
+          "name": "banner--info",
+          "filename": "alert-banner--info--2x.png"
+        },
+        {
+          "name": "banner--multilanguage",
+          "filename": "alert-banner--multilanguage--2x.png"
+        },
+        {
+          "name": "banner--negative",
+          "filename": "alert-banner--negative--2x.png"
+        },
+        {
+          "name": "banner--text-wrapping",
+          "filename": "alert-banner--text-wrapping--2x.png"
+        },
+        {
+          "name": "dialog--confirmation",
+          "filename": "alert-dialog--confirmation--2x.png"
+        },
+        {
+          "name": "dialog--destructive",
+          "filename": "alert-dialog--destructive--2x.png"
+        },
+        {
+          "name": "dialog--error",
+          "filename": "alert-dialog--error--2x.png"
+        },
+        {
+          "name": "dialog--information",
+          "filename": "alert-dialog--information--2x.png"
+        },
+        {
+          "name": "dialog--secondary",
+          "filename": "alert-dialog--secondary--2x.png"
+        },
+        {
+          "name": "dialog--warning",
+          "filename": "alert-dialog--warning--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Alert.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/alert/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/alert"
+      }
+    },
+    {
+      "id": "asset",
+      "title": "Asset",
+      "category": "Content",
+      "defaultImage": "asset--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "asset--default--2x.png"
+        },
+        {
+          "name": "-file",
+          "filename": "asset--file--2x.png"
+        },
+        {
+          "name": "-folder",
+          "filename": "asset--folder--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Asset.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/asset/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/asset"
+      }
+    },
+    {
+      "id": "avatar",
+      "title": "Avatar",
+      "category": "Content",
+      "defaultImage": "avatar--disabled--2x.png",
+      "variants": [
+        {
+          "name": "-disabled",
+          "filename": "avatar--disabled--2x.png"
+        },
+        {
+          "name": "-linked",
+          "filename": "avatar--linked--2x.png"
+        },
+        {
+          "name": "-size-100",
+          "filename": "avatar--size-100--2x.png"
+        },
+        {
+          "name": "-size-200",
+          "filename": "avatar--size-200--2x.png"
+        },
+        {
+          "name": "-size-300",
+          "filename": "avatar--size-300--2x.png"
+        },
+        {
+          "name": "-size-400",
+          "filename": "avatar--size-400--2x.png"
+        },
+        {
+          "name": "-size-50",
+          "filename": "avatar--size-50--2x.png"
+        },
+        {
+          "name": "-size-500",
+          "filename": "avatar--size-500--2x.png"
+        },
+        {
+          "name": "-size-600",
+          "filename": "avatar--size-600--2x.png"
+        },
+        {
+          "name": "-size-700",
+          "filename": "avatar--size-700--2x.png"
+        },
+        {
+          "name": "-size-75",
+          "filename": "avatar--size-75--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Avatar.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/avatar/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/avatar"
+      }
+    },
+    {
+      "id": "badge",
+      "title": "Badge",
+      "category": "Status",
+      "defaultImage": "badge--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "badge--default--2x.png"
+        },
+        {
+          "name": "-fixed",
+          "filename": "badge--fixed--2x.png"
+        },
+        {
+          "name": "-icons",
+          "filename": "badge--icons--2x.png"
+        },
+        {
+          "name": "-inline",
+          "filename": "badge--inline--2x.png"
+        },
+        {
+          "name": "-non-semantic",
+          "filename": "badge--non-semantic--2x.png"
+        },
+        {
+          "name": "-semantic",
+          "filename": "badge--semantic--2x.png"
+        },
+        {
+          "name": "-sizes",
+          "filename": "badge--sizes--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Badge.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/badge/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/badge"
+      }
+    },
+    {
+      "id": "breadcrumbs",
+      "title": "Breadcrumbs",
+      "category": "Content",
+      "defaultImage": "breadcrumbs--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "breadcrumbs--default--2x.png"
+        },
+        {
+          "name": "-add-items-dynamic",
+          "filename": "breadcrumbs--add-items-dynamic--2x.png"
+        },
+        {
+          "name": "-compact",
+          "filename": "breadcrumbs--compact--2x.png"
+        },
+        {
+          "name": "-disabled",
+          "filename": "breadcrumbs--disabled--2x.png"
+        },
+        {
+          "name": "-links",
+          "filename": "breadcrumbs--links--2x.png"
+        },
+        {
+          "name": "-resizable-behavior",
+          "filename": "breadcrumbs--resizable-behavior--2x.png"
+        },
+        {
+          "name": "-show-root",
+          "filename": "breadcrumbs--show-root--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Breadcrumbs.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/breadcrumbs/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/breadcrumbs"
+      }
+    },
+    {
+      "id": "button",
+      "title": "Button",
+      "category": "Buttons",
+      "defaultImage": "button-white-outline--default--2x.png",
+      "variants": [
+        {
+          "name": "accent-fill--default",
+          "filename": "button-accent-fill--default--2x.png"
+        },
+        {
+          "name": "accent-outline--default",
+          "filename": "button-accent-outline--default--2x.png"
+        },
+        {
+          "name": "black-fill--default",
+          "filename": "button-black-fill--default--2x.png"
+        },
+        {
+          "name": "black-outline--default",
+          "filename": "button-black-outline--default--2x.png"
+        },
+        {
+          "name": "negative-fill--default",
+          "filename": "button-negative-fill--default--2x.png"
+        },
+        {
+          "name": "negative-outline--default",
+          "filename": "button-negative-outline--default--2x.png"
+        },
+        {
+          "name": "primary-fill--default",
+          "filename": "button-primary-fill--default--2x.png"
+        },
+        {
+          "name": "primary-outline--default",
+          "filename": "button-primary-outline--default--2x.png"
+        },
+        {
+          "name": "secondary-fill--default",
+          "filename": "button-secondary-fill--default--2x.png"
+        },
+        {
+          "name": "secondary-outline--default",
+          "filename": "button-secondary-outline--default--2x.png"
+        },
+        {
+          "name": "white-fill--default",
+          "filename": "button-white-fill--default--2x.png"
+        },
+        {
+          "name": "white-outline--default",
+          "filename": "button-white-outline--default--2x.png"
+        },
+        {
+          "name": "accent-fill--link",
+          "filename": "button-accent-fill--link--2x.png"
+        },
+        {
+          "name": "accent-fill--link-with-target",
+          "filename": "button-accent-fill--link-with-target--2x.png"
+        },
+        {
+          "name": "accent-fill--min-width-button",
+          "filename": "button-accent-fill--min-width-button--2x.png"
+        },
+        {
+          "name": "accent-fill--with-icon",
+          "filename": "button-accent-fill--with-icon--2x.png"
+        },
+        {
+          "name": "accent-fill--with-icon-only",
+          "filename": "button-accent-fill--with-icon-only--2x.png"
+        },
+        {
+          "name": "accent-fill-pending--l",
+          "filename": "button-accent-fill-pending--l--2x.png"
+        },
+        {
+          "name": "accent-fill-pending--m",
+          "filename": "button-accent-fill-pending--m--2x.png"
+        },
+        {
+          "name": "accent-fill-pending--s",
+          "filename": "button-accent-fill-pending--s--2x.png"
+        },
+        {
+          "name": "accent-fill-pending--xl",
+          "filename": "button-accent-fill-pending--xl--2x.png"
+        },
+        {
+          "name": "accent-fill-sizes--l",
+          "filename": "button-accent-fill-sizes--l--2x.png"
+        },
+        {
+          "name": "accent-fill-sizes--m",
+          "filename": "button-accent-fill-sizes--m--2x.png"
+        },
+        {
+          "name": "accent-fill-sizes--s",
+          "filename": "button-accent-fill-sizes--s--2x.png"
+        },
+        {
+          "name": "accent-fill-sizes--xl",
+          "filename": "button-accent-fill-sizes--xl--2x.png"
+        },
+        {
+          "name": "accent-outline--link",
+          "filename": "button-accent-outline--link--2x.png"
+        },
+        {
+          "name": "accent-outline--link-with-target",
+          "filename": "button-accent-outline--link-with-target--2x.png"
+        },
+        {
+          "name": "accent-outline--min-width-button",
+          "filename": "button-accent-outline--min-width-button--2x.png"
+        },
+        {
+          "name": "accent-outline--with-icon",
+          "filename": "button-accent-outline--with-icon--2x.png"
+        },
+        {
+          "name": "accent-outline--with-icon-only",
+          "filename": "button-accent-outline--with-icon-only--2x.png"
+        },
+        {
+          "name": "accent-outline-pending--l",
+          "filename": "button-accent-outline-pending--l--2x.png"
+        },
+        {
+          "name": "accent-outline-pending--m",
+          "filename": "button-accent-outline-pending--m--2x.png"
+        },
+        {
+          "name": "accent-outline-pending--s",
+          "filename": "button-accent-outline-pending--s--2x.png"
+        },
+        {
+          "name": "accent-outline-pending--xl",
+          "filename": "button-accent-outline-pending--xl--2x.png"
+        },
+        {
+          "name": "accent-outline-sizes--l",
+          "filename": "button-accent-outline-sizes--l--2x.png"
+        },
+        {
+          "name": "accent-outline-sizes--m",
+          "filename": "button-accent-outline-sizes--m--2x.png"
+        },
+        {
+          "name": "accent-outline-sizes--s",
+          "filename": "button-accent-outline-sizes--s--2x.png"
+        },
+        {
+          "name": "accent-outline-sizes--xl",
+          "filename": "button-accent-outline-sizes--xl--2x.png"
+        },
+        {
+          "name": "black-fill--link",
+          "filename": "button-black-fill--link--2x.png"
+        },
+        {
+          "name": "black-fill--link-with-target",
+          "filename": "button-black-fill--link-with-target--2x.png"
+        },
+        {
+          "name": "black-fill--min-width-button",
+          "filename": "button-black-fill--min-width-button--2x.png"
+        },
+        {
+          "name": "black-fill--primary",
+          "filename": "button-black-fill--primary--2x.png"
+        },
+        {
+          "name": "black-fill--secondary",
+          "filename": "button-black-fill--secondary--2x.png"
+        },
+        {
+          "name": "black-fill--with-icon",
+          "filename": "button-black-fill--with-icon--2x.png"
+        },
+        {
+          "name": "black-fill--with-icon-only",
+          "filename": "button-black-fill--with-icon-only--2x.png"
+        },
+        {
+          "name": "black-fill-pending--l",
+          "filename": "button-black-fill-pending--l--2x.png"
+        },
+        {
+          "name": "black-fill-pending--m",
+          "filename": "button-black-fill-pending--m--2x.png"
+        },
+        {
+          "name": "black-fill-pending--s",
+          "filename": "button-black-fill-pending--s--2x.png"
+        },
+        {
+          "name": "black-fill-pending--xl",
+          "filename": "button-black-fill-pending--xl--2x.png"
+        },
+        {
+          "name": "black-fill-sizes--l",
+          "filename": "button-black-fill-sizes--l--2x.png"
+        },
+        {
+          "name": "black-fill-sizes--m",
+          "filename": "button-black-fill-sizes--m--2x.png"
+        },
+        {
+          "name": "black-fill-sizes--s",
+          "filename": "button-black-fill-sizes--s--2x.png"
+        },
+        {
+          "name": "black-fill-sizes--xl",
+          "filename": "button-black-fill-sizes--xl--2x.png"
+        },
+        {
+          "name": "black-outline--link",
+          "filename": "button-black-outline--link--2x.png"
+        },
+        {
+          "name": "black-outline--link-with-target",
+          "filename": "button-black-outline--link-with-target--2x.png"
+        },
+        {
+          "name": "black-outline--min-width-button",
+          "filename": "button-black-outline--min-width-button--2x.png"
+        },
+        {
+          "name": "black-outline--primary",
+          "filename": "button-black-outline--primary--2x.png"
+        },
+        {
+          "name": "black-outline--secondary",
+          "filename": "button-black-outline--secondary--2x.png"
+        },
+        {
+          "name": "black-outline--with-icon",
+          "filename": "button-black-outline--with-icon--2x.png"
+        },
+        {
+          "name": "black-outline--with-icon-only",
+          "filename": "button-black-outline--with-icon-only--2x.png"
+        },
+        {
+          "name": "black-outline-pending--l",
+          "filename": "button-black-outline-pending--l--2x.png"
+        },
+        {
+          "name": "black-outline-pending--m",
+          "filename": "button-black-outline-pending--m--2x.png"
+        },
+        {
+          "name": "black-outline-pending--s",
+          "filename": "button-black-outline-pending--s--2x.png"
+        },
+        {
+          "name": "black-outline-pending--xl",
+          "filename": "button-black-outline-pending--xl--2x.png"
+        },
+        {
+          "name": "black-outline-sizes--l",
+          "filename": "button-black-outline-sizes--l--2x.png"
+        },
+        {
+          "name": "black-outline-sizes--m",
+          "filename": "button-black-outline-sizes--m--2x.png"
+        },
+        {
+          "name": "black-outline-sizes--s",
+          "filename": "button-black-outline-sizes--s--2x.png"
+        },
+        {
+          "name": "black-outline-sizes--xl",
+          "filename": "button-black-outline-sizes--xl--2x.png"
+        },
+        {
+          "name": "group--buttons",
+          "filename": "button-group--buttons--2x.png"
+        },
+        {
+          "name": "group--buttons-vertical",
+          "filename": "button-group--buttons-vertical--2x.png"
+        },
+        {
+          "name": "group-sizes--l",
+          "filename": "button-group-sizes--l--2x.png"
+        },
+        {
+          "name": "group-sizes--m",
+          "filename": "button-group-sizes--m--2x.png"
+        },
+        {
+          "name": "group-sizes--s",
+          "filename": "button-group-sizes--s--2x.png"
+        },
+        {
+          "name": "group-sizes--vertical-l",
+          "filename": "button-group-sizes--vertical-l--2x.png"
+        },
+        {
+          "name": "group-sizes--vertical-m",
+          "filename": "button-group-sizes--vertical-m--2x.png"
+        },
+        {
+          "name": "group-sizes--vertical-s",
+          "filename": "button-group-sizes--vertical-s--2x.png"
+        },
+        {
+          "name": "group-sizes--vertical-xl",
+          "filename": "button-group-sizes--vertical-xl--2x.png"
+        },
+        {
+          "name": "group-sizes--xl",
+          "filename": "button-group-sizes--xl--2x.png"
+        },
+        {
+          "name": "negative-fill--link",
+          "filename": "button-negative-fill--link--2x.png"
+        },
+        {
+          "name": "negative-fill--link-with-target",
+          "filename": "button-negative-fill--link-with-target--2x.png"
+        },
+        {
+          "name": "negative-fill--min-width-button",
+          "filename": "button-negative-fill--min-width-button--2x.png"
+        },
+        {
+          "name": "negative-fill--with-icon",
+          "filename": "button-negative-fill--with-icon--2x.png"
+        },
+        {
+          "name": "negative-fill--with-icon-only",
+          "filename": "button-negative-fill--with-icon-only--2x.png"
+        },
+        {
+          "name": "negative-fill-pending--l",
+          "filename": "button-negative-fill-pending--l--2x.png"
+        },
+        {
+          "name": "negative-fill-pending--m",
+          "filename": "button-negative-fill-pending--m--2x.png"
+        },
+        {
+          "name": "negative-fill-pending--s",
+          "filename": "button-negative-fill-pending--s--2x.png"
+        },
+        {
+          "name": "negative-fill-pending--xl",
+          "filename": "button-negative-fill-pending--xl--2x.png"
+        },
+        {
+          "name": "negative-fill-sizes--l",
+          "filename": "button-negative-fill-sizes--l--2x.png"
+        },
+        {
+          "name": "negative-fill-sizes--m",
+          "filename": "button-negative-fill-sizes--m--2x.png"
+        },
+        {
+          "name": "negative-fill-sizes--s",
+          "filename": "button-negative-fill-sizes--s--2x.png"
+        },
+        {
+          "name": "negative-fill-sizes--xl",
+          "filename": "button-negative-fill-sizes--xl--2x.png"
+        },
+        {
+          "name": "negative-outline--link",
+          "filename": "button-negative-outline--link--2x.png"
+        },
+        {
+          "name": "negative-outline--link-with-target",
+          "filename": "button-negative-outline--link-with-target--2x.png"
+        },
+        {
+          "name": "negative-outline--min-width-button",
+          "filename": "button-negative-outline--min-width-button--2x.png"
+        },
+        {
+          "name": "negative-outline--with-icon",
+          "filename": "button-negative-outline--with-icon--2x.png"
+        },
+        {
+          "name": "negative-outline--with-icon-only",
+          "filename": "button-negative-outline--with-icon-only--2x.png"
+        },
+        {
+          "name": "negative-outline-pending--l",
+          "filename": "button-negative-outline-pending--l--2x.png"
+        },
+        {
+          "name": "negative-outline-pending--m",
+          "filename": "button-negative-outline-pending--m--2x.png"
+        },
+        {
+          "name": "negative-outline-pending--s",
+          "filename": "button-negative-outline-pending--s--2x.png"
+        },
+        {
+          "name": "negative-outline-pending--xl",
+          "filename": "button-negative-outline-pending--xl--2x.png"
+        },
+        {
+          "name": "negative-outline-sizes--l",
+          "filename": "button-negative-outline-sizes--l--2x.png"
+        },
+        {
+          "name": "negative-outline-sizes--m",
+          "filename": "button-negative-outline-sizes--m--2x.png"
+        },
+        {
+          "name": "negative-outline-sizes--s",
+          "filename": "button-negative-outline-sizes--s--2x.png"
+        },
+        {
+          "name": "negative-outline-sizes--xl",
+          "filename": "button-negative-outline-sizes--xl--2x.png"
+        },
+        {
+          "name": "primary-fill--link",
+          "filename": "button-primary-fill--link--2x.png"
+        },
+        {
+          "name": "primary-fill--link-with-target",
+          "filename": "button-primary-fill--link-with-target--2x.png"
+        },
+        {
+          "name": "primary-fill--min-width-button",
+          "filename": "button-primary-fill--min-width-button--2x.png"
+        },
+        {
+          "name": "primary-fill--no-wrap-button",
+          "filename": "button-primary-fill--no-wrap-button--2x.png"
+        },
+        {
+          "name": "primary-fill--with-icon",
+          "filename": "button-primary-fill--with-icon--2x.png"
+        },
+        {
+          "name": "primary-fill--with-icon-only",
+          "filename": "button-primary-fill--with-icon-only--2x.png"
+        },
+        {
+          "name": "primary-fill-pending--l",
+          "filename": "button-primary-fill-pending--l--2x.png"
+        },
+        {
+          "name": "primary-fill-pending--m",
+          "filename": "button-primary-fill-pending--m--2x.png"
+        },
+        {
+          "name": "primary-fill-pending--s",
+          "filename": "button-primary-fill-pending--s--2x.png"
+        },
+        {
+          "name": "primary-fill-pending--xl",
+          "filename": "button-primary-fill-pending--xl--2x.png"
+        },
+        {
+          "name": "primary-fill-sizes--l",
+          "filename": "button-primary-fill-sizes--l--2x.png"
+        },
+        {
+          "name": "primary-fill-sizes--m",
+          "filename": "button-primary-fill-sizes--m--2x.png"
+        },
+        {
+          "name": "primary-fill-sizes--s",
+          "filename": "button-primary-fill-sizes--s--2x.png"
+        },
+        {
+          "name": "primary-fill-sizes--xl",
+          "filename": "button-primary-fill-sizes--xl--2x.png"
+        },
+        {
+          "name": "primary-outline--link",
+          "filename": "button-primary-outline--link--2x.png"
+        },
+        {
+          "name": "primary-outline--link-with-target",
+          "filename": "button-primary-outline--link-with-target--2x.png"
+        },
+        {
+          "name": "primary-outline--min-width-button",
+          "filename": "button-primary-outline--min-width-button--2x.png"
+        },
+        {
+          "name": "primary-outline--with-icon",
+          "filename": "button-primary-outline--with-icon--2x.png"
+        },
+        {
+          "name": "primary-outline--with-icon-only",
+          "filename": "button-primary-outline--with-icon-only--2x.png"
+        },
+        {
+          "name": "primary-outline-pending--l",
+          "filename": "button-primary-outline-pending--l--2x.png"
+        },
+        {
+          "name": "primary-outline-pending--m",
+          "filename": "button-primary-outline-pending--m--2x.png"
+        },
+        {
+          "name": "primary-outline-pending--s",
+          "filename": "button-primary-outline-pending--s--2x.png"
+        },
+        {
+          "name": "primary-outline-pending--xl",
+          "filename": "button-primary-outline-pending--xl--2x.png"
+        },
+        {
+          "name": "primary-outline-sizes--l",
+          "filename": "button-primary-outline-sizes--l--2x.png"
+        },
+        {
+          "name": "primary-outline-sizes--m",
+          "filename": "button-primary-outline-sizes--m--2x.png"
+        },
+        {
+          "name": "primary-outline-sizes--s",
+          "filename": "button-primary-outline-sizes--s--2x.png"
+        },
+        {
+          "name": "primary-outline-sizes--xl",
+          "filename": "button-primary-outline-sizes--xl--2x.png"
+        },
+        {
+          "name": "secondary-fill--link",
+          "filename": "button-secondary-fill--link--2x.png"
+        },
+        {
+          "name": "secondary-fill--link-with-target",
+          "filename": "button-secondary-fill--link-with-target--2x.png"
+        },
+        {
+          "name": "secondary-fill--min-width-button",
+          "filename": "button-secondary-fill--min-width-button--2x.png"
+        },
+        {
+          "name": "secondary-fill--with-icon",
+          "filename": "button-secondary-fill--with-icon--2x.png"
+        },
+        {
+          "name": "secondary-fill--with-icon-only",
+          "filename": "button-secondary-fill--with-icon-only--2x.png"
+        },
+        {
+          "name": "secondary-fill-pending--l",
+          "filename": "button-secondary-fill-pending--l--2x.png"
+        },
+        {
+          "name": "secondary-fill-pending--m",
+          "filename": "button-secondary-fill-pending--m--2x.png"
+        },
+        {
+          "name": "secondary-fill-pending--s",
+          "filename": "button-secondary-fill-pending--s--2x.png"
+        },
+        {
+          "name": "secondary-fill-pending--xl",
+          "filename": "button-secondary-fill-pending--xl--2x.png"
+        },
+        {
+          "name": "secondary-fill-sizes--l",
+          "filename": "button-secondary-fill-sizes--l--2x.png"
+        },
+        {
+          "name": "secondary-fill-sizes--m",
+          "filename": "button-secondary-fill-sizes--m--2x.png"
+        },
+        {
+          "name": "secondary-fill-sizes--s",
+          "filename": "button-secondary-fill-sizes--s--2x.png"
+        },
+        {
+          "name": "secondary-fill-sizes--xl",
+          "filename": "button-secondary-fill-sizes--xl--2x.png"
+        },
+        {
+          "name": "secondary-outline--link",
+          "filename": "button-secondary-outline--link--2x.png"
+        },
+        {
+          "name": "secondary-outline--link-with-target",
+          "filename": "button-secondary-outline--link-with-target--2x.png"
+        },
+        {
+          "name": "secondary-outline--min-width-button",
+          "filename": "button-secondary-outline--min-width-button--2x.png"
+        },
+        {
+          "name": "secondary-outline--with-icon",
+          "filename": "button-secondary-outline--with-icon--2x.png"
+        },
+        {
+          "name": "secondary-outline--with-icon-only",
+          "filename": "button-secondary-outline--with-icon-only--2x.png"
+        },
+        {
+          "name": "secondary-outline-pending--l",
+          "filename": "button-secondary-outline-pending--l--2x.png"
+        },
+        {
+          "name": "secondary-outline-pending--m",
+          "filename": "button-secondary-outline-pending--m--2x.png"
+        },
+        {
+          "name": "secondary-outline-pending--s",
+          "filename": "button-secondary-outline-pending--s--2x.png"
+        },
+        {
+          "name": "secondary-outline-pending--xl",
+          "filename": "button-secondary-outline-pending--xl--2x.png"
+        },
+        {
+          "name": "secondary-outline-sizes--l",
+          "filename": "button-secondary-outline-sizes--l--2x.png"
+        },
+        {
+          "name": "secondary-outline-sizes--m",
+          "filename": "button-secondary-outline-sizes--m--2x.png"
+        },
+        {
+          "name": "secondary-outline-sizes--s",
+          "filename": "button-secondary-outline-sizes--s--2x.png"
+        },
+        {
+          "name": "secondary-outline-sizes--xl",
+          "filename": "button-secondary-outline-sizes--xl--2x.png"
+        },
+        {
+          "name": "white-fill--link",
+          "filename": "button-white-fill--link--2x.png"
+        },
+        {
+          "name": "white-fill--link-with-target",
+          "filename": "button-white-fill--link-with-target--2x.png"
+        },
+        {
+          "name": "white-fill--min-width-button",
+          "filename": "button-white-fill--min-width-button--2x.png"
+        },
+        {
+          "name": "white-fill--primary",
+          "filename": "button-white-fill--primary--2x.png"
+        },
+        {
+          "name": "white-fill--secondary",
+          "filename": "button-white-fill--secondary--2x.png"
+        },
+        {
+          "name": "white-fill--with-icon",
+          "filename": "button-white-fill--with-icon--2x.png"
+        },
+        {
+          "name": "white-fill--with-icon-only",
+          "filename": "button-white-fill--with-icon-only--2x.png"
+        },
+        {
+          "name": "white-fill-pending--l",
+          "filename": "button-white-fill-pending--l--2x.png"
+        },
+        {
+          "name": "white-fill-pending--m",
+          "filename": "button-white-fill-pending--m--2x.png"
+        },
+        {
+          "name": "white-fill-pending--s",
+          "filename": "button-white-fill-pending--s--2x.png"
+        },
+        {
+          "name": "white-fill-pending--xl",
+          "filename": "button-white-fill-pending--xl--2x.png"
+        },
+        {
+          "name": "white-fill-sizes--l",
+          "filename": "button-white-fill-sizes--l--2x.png"
+        },
+        {
+          "name": "white-fill-sizes--m",
+          "filename": "button-white-fill-sizes--m--2x.png"
+        },
+        {
+          "name": "white-fill-sizes--s",
+          "filename": "button-white-fill-sizes--s--2x.png"
+        },
+        {
+          "name": "white-fill-sizes--xl",
+          "filename": "button-white-fill-sizes--xl--2x.png"
+        },
+        {
+          "name": "white-outline--link",
+          "filename": "button-white-outline--link--2x.png"
+        },
+        {
+          "name": "white-outline--link-with-target",
+          "filename": "button-white-outline--link-with-target--2x.png"
+        },
+        {
+          "name": "white-outline--min-width-button",
+          "filename": "button-white-outline--min-width-button--2x.png"
+        },
+        {
+          "name": "white-outline--primary",
+          "filename": "button-white-outline--primary--2x.png"
+        },
+        {
+          "name": "white-outline--secondary",
+          "filename": "button-white-outline--secondary--2x.png"
+        },
+        {
+          "name": "white-outline--with-icon",
+          "filename": "button-white-outline--with-icon--2x.png"
+        },
+        {
+          "name": "white-outline--with-icon-only",
+          "filename": "button-white-outline--with-icon-only--2x.png"
+        },
+        {
+          "name": "white-outline-pending--l",
+          "filename": "button-white-outline-pending--l--2x.png"
+        },
+        {
+          "name": "white-outline-pending--m",
+          "filename": "button-white-outline-pending--m--2x.png"
+        },
+        {
+          "name": "white-outline-pending--s",
+          "filename": "button-white-outline-pending--s--2x.png"
+        },
+        {
+          "name": "white-outline-pending--xl",
+          "filename": "button-white-outline-pending--xl--2x.png"
+        },
+        {
+          "name": "white-outline-sizes--l",
+          "filename": "button-white-outline-sizes--l--2x.png"
+        },
+        {
+          "name": "white-outline-sizes--m",
+          "filename": "button-white-outline-sizes--m--2x.png"
+        },
+        {
+          "name": "white-outline-sizes--s",
+          "filename": "button-white-outline-sizes--s--2x.png"
+        },
+        {
+          "name": "white-outline-sizes--xl",
+          "filename": "button-white-outline-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Button.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/button/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/button"
+      }
+    },
+    {
+      "id": "card",
+      "title": "Card",
+      "category": "Content",
+      "defaultImage": "card--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "card--default--2x.png"
+        },
+        {
+          "name": "-actions",
+          "filename": "card--actions--2x.png"
+        },
+        {
+          "name": "-gallery",
+          "filename": "card--gallery--2x.png"
+        },
+        {
+          "name": "-horizontal",
+          "filename": "card--horizontal--2x.png"
+        },
+        {
+          "name": "-horizontal-with-href",
+          "filename": "card--horizontal-with-href--2x.png"
+        },
+        {
+          "name": "-href",
+          "filename": "card--href--2x.png"
+        },
+        {
+          "name": "-no-preview-image",
+          "filename": "card--no-preview-image--2x.png"
+        },
+        {
+          "name": "-quiet",
+          "filename": "card--quiet--2x.png"
+        },
+        {
+          "name": "-quiet-actions",
+          "filename": "card--quiet-actions--2x.png"
+        },
+        {
+          "name": "-quiet-file",
+          "filename": "card--quiet-file--2x.png"
+        },
+        {
+          "name": "-quiet-folder",
+          "filename": "card--quiet-folder--2x.png"
+        },
+        {
+          "name": "-scroll-test",
+          "filename": "card--scroll-test--2x.png"
+        },
+        {
+          "name": "-slotted-heading",
+          "filename": "card--slotted-heading--2x.png"
+        },
+        {
+          "name": "-small-quiet",
+          "filename": "card--small-quiet--2x.png"
+        },
+        {
+          "name": "-toggles",
+          "filename": "card--toggles--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Card.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/card/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/card"
+      }
+    },
+    {
+      "id": "checkbox",
+      "title": "Checkbox",
+      "category": "Forms",
+      "defaultImage": "checkbox--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "checkbox--default--2x.png"
+        },
+        {
+          "name": "-autofocus",
+          "filename": "checkbox--autofocus--2x.png"
+        },
+        {
+          "name": "-checked",
+          "filename": "checkbox--checked--2x.png"
+        },
+        {
+          "name": "-disabled",
+          "filename": "checkbox--disabled--2x.png"
+        },
+        {
+          "name": "-disabled-checked",
+          "filename": "checkbox--disabled-checked--2x.png"
+        },
+        {
+          "name": "-disabled-indeterminate",
+          "filename": "checkbox--disabled-indeterminate--2x.png"
+        },
+        {
+          "name": "-emphasized",
+          "filename": "checkbox--emphasized--2x.png"
+        },
+        {
+          "name": "-emphasized-checked",
+          "filename": "checkbox--emphasized-checked--2x.png"
+        },
+        {
+          "name": "-emphasized-disabled",
+          "filename": "checkbox--emphasized-disabled--2x.png"
+        },
+        {
+          "name": "-emphasized-disabled-checked",
+          "filename": "checkbox--emphasized-disabled-checked--2x.png"
+        },
+        {
+          "name": "-emphasized-disabled-indeterminate",
+          "filename": "checkbox--emphasized-disabled-indeterminate--2x.png"
+        },
+        {
+          "name": "-emphasized-indeterminate",
+          "filename": "checkbox--emphasized-indeterminate--2x.png"
+        },
+        {
+          "name": "-emphasized-invalid",
+          "filename": "checkbox--emphasized-invalid--2x.png"
+        },
+        {
+          "name": "-emphasized-invalid-checked",
+          "filename": "checkbox--emphasized-invalid-checked--2x.png"
+        },
+        {
+          "name": "-emphasized-invalid-indeterminate",
+          "filename": "checkbox--emphasized-invalid-indeterminate--2x.png"
+        },
+        {
+          "name": "-indeterminate",
+          "filename": "checkbox--indeterminate--2x.png"
+        },
+        {
+          "name": "-invalid",
+          "filename": "checkbox--invalid--2x.png"
+        },
+        {
+          "name": "-invalid-checked",
+          "filename": "checkbox--invalid-checked--2x.png"
+        },
+        {
+          "name": "-invalid-indeterminate",
+          "filename": "checkbox--invalid-indeterminate--2x.png"
+        },
+        {
+          "name": "-readonly",
+          "filename": "checkbox--readonly--2x.png"
+        },
+        {
+          "name": "-tab-index-example",
+          "filename": "checkbox--tab-index-example--2x.png"
+        },
+        {
+          "name": "-vertical-tab-index-example",
+          "filename": "checkbox--vertical-tab-index-example--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "checkbox-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--l-checked",
+          "filename": "checkbox-sizes--l-checked--2x.png"
+        },
+        {
+          "name": "sizes--l-indeterminate",
+          "filename": "checkbox-sizes--l-indeterminate--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "checkbox-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--m-checked",
+          "filename": "checkbox-sizes--m-checked--2x.png"
+        },
+        {
+          "name": "sizes--m-indeterminate",
+          "filename": "checkbox-sizes--m-indeterminate--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "checkbox-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--s-checked",
+          "filename": "checkbox-sizes--s-checked--2x.png"
+        },
+        {
+          "name": "sizes--s-indeterminate",
+          "filename": "checkbox-sizes--s-indeterminate--2x.png"
+        },
+        {
+          "name": "sizes--xl",
+          "filename": "checkbox-sizes--xl--2x.png"
+        },
+        {
+          "name": "sizes--xl-checked",
+          "filename": "checkbox-sizes--xl-checked--2x.png"
+        },
+        {
+          "name": "sizes--xl-indeterminate",
+          "filename": "checkbox-sizes--xl-indeterminate--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Checkbox.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/checkbox/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/checkbox"
+      }
+    },
+    {
+      "id": "coachindicator",
+      "title": "Coachindicator",
+      "category": "Content",
+      "defaultImage": "coachindicator--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "coachindicator--default--2x.png"
+        },
+        {
+          "name": "-quiet",
+          "filename": "coachindicator--quiet--2x.png"
+        },
+        {
+          "name": "-static-black",
+          "filename": "coachindicator--static-black--2x.png"
+        },
+        {
+          "name": "-static-white",
+          "filename": "coachindicator--static-white--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Coachindicator.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/coachindicator/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/coachindicator"
+      }
+    },
+    {
+      "id": "coachmark",
+      "title": "Coachmark",
+      "category": "Content",
+      "defaultImage": "coachmark--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "coachmark--default--2x.png"
+        },
+        {
+          "name": "-in-tour",
+          "filename": "coachmark--in-tour--2x.png"
+        },
+        {
+          "name": "-single",
+          "filename": "coachmark--single--2x.png"
+        },
+        {
+          "name": "-trigger-on-click",
+          "filename": "coachmark--trigger-on-click--2x.png"
+        },
+        {
+          "name": "-trigger-on-hover",
+          "filename": "coachmark--trigger-on-hover--2x.png"
+        },
+        {
+          "name": "-with-gif",
+          "filename": "coachmark--with-gif--2x.png"
+        },
+        {
+          "name": "-with-image",
+          "filename": "coachmark--with-image--2x.png"
+        },
+        {
+          "name": "-with-keys",
+          "filename": "coachmark--with-keys--2x.png"
+        },
+        {
+          "name": "-with-short-cut",
+          "filename": "coachmark--with-short-cut--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Coachmark.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/coachmark/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/coachmark"
+      }
+    },
+    {
+      "id": "color",
+      "title": "Color",
+      "category": "Forms",
+      "defaultImage": "color-wheel--default--2x.png",
+      "variants": [
+        {
+          "name": "area--default",
+          "filename": "color-area--default--2x.png"
+        },
+        {
+          "name": "field--default",
+          "filename": "color-field--default--2x.png"
+        },
+        {
+          "name": "handle--default",
+          "filename": "color-handle--default--2x.png"
+        },
+        {
+          "name": "slider--default",
+          "filename": "color-slider--default--2x.png"
+        },
+        {
+          "name": "wheel--default",
+          "filename": "color-wheel--default--2x.png"
+        },
+        {
+          "name": "area--applied-values",
+          "filename": "color-area--applied-values--2x.png"
+        },
+        {
+          "name": "area--canvas",
+          "filename": "color-area--canvas--2x.png"
+        },
+        {
+          "name": "area--disabled",
+          "filename": "color-area--disabled--2x.png"
+        },
+        {
+          "name": "area--joint",
+          "filename": "color-area--joint--2x.png"
+        },
+        {
+          "name": "area--sized",
+          "filename": "color-area--sized--2x.png"
+        },
+        {
+          "name": "field--disabled",
+          "filename": "color-field--disabled--2x.png"
+        },
+        {
+          "name": "field--multiple",
+          "filename": "color-field--multiple--2x.png"
+        },
+        {
+          "name": "field--quiet",
+          "filename": "color-field--quiet--2x.png"
+        },
+        {
+          "name": "field--read-only",
+          "filename": "color-field--read-only--2x.png"
+        },
+        {
+          "name": "field--right-input",
+          "filename": "color-field--right-input--2x.png"
+        },
+        {
+          "name": "field--view-color",
+          "filename": "color-field--view-color--2x.png"
+        },
+        {
+          "name": "field--wrong-input",
+          "filename": "color-field--wrong-input--2x.png"
+        },
+        {
+          "name": "field-sizes--l",
+          "filename": "color-field-sizes--l--2x.png"
+        },
+        {
+          "name": "field-sizes--m",
+          "filename": "color-field-sizes--m--2x.png"
+        },
+        {
+          "name": "field-sizes--s",
+          "filename": "color-field-sizes--s--2x.png"
+        },
+        {
+          "name": "field-sizes--xl",
+          "filename": "color-field-sizes--xl--2x.png"
+        },
+        {
+          "name": "handle--disabled",
+          "filename": "color-handle--disabled--2x.png"
+        },
+        {
+          "name": "handle--open",
+          "filename": "color-handle--open--2x.png"
+        },
+        {
+          "name": "loupe--open",
+          "filename": "color-loupe--open--2x.png"
+        },
+        {
+          "name": "slider--canvas",
+          "filename": "color-slider--canvas--2x.png"
+        },
+        {
+          "name": "slider--disabled",
+          "filename": "color-slider--disabled--2x.png"
+        },
+        {
+          "name": "slider--image",
+          "filename": "color-slider--image--2x.png"
+        },
+        {
+          "name": "slider--vertical",
+          "filename": "color-slider--vertical--2x.png"
+        },
+        {
+          "name": "wheel--canvas",
+          "filename": "color-wheel--canvas--2x.png"
+        },
+        {
+          "name": "wheel--sized",
+          "filename": "color-wheel--sized--2x.png"
+        },
+        {
+          "name": "wheel--step-size",
+          "filename": "color-wheel--step-size--2x.png"
+        },
+        {
+          "name": "wheel--wheel-disabled",
+          "filename": "color-wheel--wheel-disabled--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Color.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/color/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/color"
+      }
+    },
+    {
+      "id": "combobox",
+      "title": "Combobox",
+      "category": "Content",
+      "defaultImage": "combobox--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "combobox--default--2x.png"
+        },
+        {
+          "name": "-controlled",
+          "filename": "combobox--controlled--2x.png"
+        },
+        {
+          "name": "-disabled",
+          "filename": "combobox--disabled--2x.png"
+        },
+        {
+          "name": "-has-disabled-items",
+          "filename": "combobox--has-disabled-items--2x.png"
+        },
+        {
+          "name": "-invalid",
+          "filename": "combobox--invalid--2x.png"
+        },
+        {
+          "name": "-light-dom",
+          "filename": "combobox--light-dom--2x.png"
+        },
+        {
+          "name": "-list-autocomplete",
+          "filename": "combobox--list-autocomplete--2x.png"
+        },
+        {
+          "name": "-no-autocomplete",
+          "filename": "combobox--no-autocomplete--2x.png"
+        },
+        {
+          "name": "-pending",
+          "filename": "combobox--pending--2x.png"
+        },
+        {
+          "name": "-quiet",
+          "filename": "combobox--quiet--2x.png"
+        },
+        {
+          "name": "-readonly",
+          "filename": "combobox--readonly--2x.png"
+        },
+        {
+          "name": "-with-field-label",
+          "filename": "combobox--with-field-label--2x.png"
+        },
+        {
+          "name": "-with-help-text",
+          "filename": "combobox--with-help-text--2x.png"
+        },
+        {
+          "name": "-with-label-attribute",
+          "filename": "combobox--with-label-attribute--2x.png"
+        },
+        {
+          "name": "-with-tooltip",
+          "filename": "combobox--with-tooltip--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "combobox-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--l-open",
+          "filename": "combobox-sizes--l-open--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "combobox-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--m-open",
+          "filename": "combobox-sizes--m-open--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "combobox-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--s-open",
+          "filename": "combobox-sizes--s-open--2x.png"
+        },
+        {
+          "name": "sizes--x-l",
+          "filename": "combobox-sizes--x-l--2x.png"
+        },
+        {
+          "name": "sizes--xl-open",
+          "filename": "combobox-sizes--xl-open--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Combobox.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/combobox/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/combobox"
+      }
+    },
+    {
+      "id": "contextual",
+      "title": "Contextual",
+      "category": "Content",
+      "defaultImage": "contextual-help--default--2x.png",
+      "variants": [
+        {
+          "name": "help--default",
+          "filename": "contextual-help--default--2x.png"
+        },
+        {
+          "name": "help--custom-max-width",
+          "filename": "contextual-help--custom-max-width--2x.png"
+        },
+        {
+          "name": "help--custom-placement",
+          "filename": "contextual-help--custom-placement--2x.png"
+        },
+        {
+          "name": "help--help",
+          "filename": "contextual-help--help--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Contextual.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/contextual/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/contextual"
+      }
+    },
+    {
+      "id": "dialog",
+      "title": "Dialog",
+      "category": "Overlays",
+      "defaultImage": "dialog--alert-confirmation--2x.png",
+      "variants": [
+        {
+          "name": "-alert-confirmation",
+          "filename": "dialog--alert-confirmation--2x.png"
+        },
+        {
+          "name": "-alert-destructive",
+          "filename": "dialog--alert-destructive--2x.png"
+        },
+        {
+          "name": "-alert-error",
+          "filename": "dialog--alert-error--2x.png"
+        },
+        {
+          "name": "-alert-error-with-long-title",
+          "filename": "dialog--alert-error-with-long-title--2x.png"
+        },
+        {
+          "name": "-alert-information",
+          "filename": "dialog--alert-information--2x.png"
+        },
+        {
+          "name": "-dismissable",
+          "filename": "dialog--dismissable--2x.png"
+        },
+        {
+          "name": "-forced-scrolling",
+          "filename": "dialog--forced-scrolling--2x.png"
+        },
+        {
+          "name": "-fullscreen",
+          "filename": "dialog--fullscreen--2x.png"
+        },
+        {
+          "name": "-fullscreen-takeover",
+          "filename": "dialog--fullscreen-takeover--2x.png"
+        },
+        {
+          "name": "-hero",
+          "filename": "dialog--hero--2x.png"
+        },
+        {
+          "name": "-large",
+          "filename": "dialog--large--2x.png"
+        },
+        {
+          "name": "-medium",
+          "filename": "dialog--medium--2x.png"
+        },
+        {
+          "name": "-no-divider",
+          "filename": "dialog--no-divider--2x.png"
+        },
+        {
+          "name": "-small",
+          "filename": "dialog--small--2x.png"
+        },
+        {
+          "name": "base--disabled-button",
+          "filename": "dialog-base--disabled-button--2x.png"
+        },
+        {
+          "name": "base--fully-custom",
+          "filename": "dialog-base--fully-custom--2x.png"
+        },
+        {
+          "name": "base--lazy-loaded",
+          "filename": "dialog-base--lazy-loaded--2x.png"
+        },
+        {
+          "name": "base--more-custom",
+          "filename": "dialog-base--more-custom--2x.png"
+        },
+        {
+          "name": "base--not-again",
+          "filename": "dialog-base--not-again--2x.png"
+        },
+        {
+          "name": "base--slotted",
+          "filename": "dialog-base--slotted--2x.png"
+        },
+        {
+          "name": "wrapper--form",
+          "filename": "dialog-wrapper--form--2x.png"
+        },
+        {
+          "name": "wrapper--lazy-hero",
+          "filename": "dialog-wrapper--lazy-hero--2x.png"
+        },
+        {
+          "name": "wrapper--long-content",
+          "filename": "dialog-wrapper--long-content--2x.png"
+        },
+        {
+          "name": "wrapper--long-heading",
+          "filename": "dialog-wrapper--long-heading--2x.png"
+        },
+        {
+          "name": "wrapper--tooltips",
+          "filename": "dialog-wrapper--tooltips--2x.png"
+        },
+        {
+          "name": "wrapper--wrapper-buttons",
+          "filename": "dialog-wrapper--wrapper-buttons--2x.png"
+        },
+        {
+          "name": "wrapper--wrapper-buttons-underlay",
+          "filename": "dialog-wrapper--wrapper-buttons-underlay--2x.png"
+        },
+        {
+          "name": "wrapper--wrapper-dismissable",
+          "filename": "dialog-wrapper--wrapper-dismissable--2x.png"
+        },
+        {
+          "name": "wrapper--wrapper-dismissable-underlay",
+          "filename": "dialog-wrapper--wrapper-dismissable-underlay--2x.png"
+        },
+        {
+          "name": "wrapper--wrapper-dismissable-underlay-error",
+          "filename": "dialog-wrapper--wrapper-dismissable-underlay-error--2x.png"
+        },
+        {
+          "name": "wrapper--wrapper-fullscreen",
+          "filename": "dialog-wrapper--wrapper-fullscreen--2x.png"
+        },
+        {
+          "name": "wrapper--wrapper-headline-visibility-none",
+          "filename": "dialog-wrapper--wrapper-headline-visibility-none--2x.png"
+        },
+        {
+          "name": "wrapper--wrapper-labeled-hero",
+          "filename": "dialog-wrapper--wrapper-labeled-hero--2x.png"
+        },
+        {
+          "name": "wrapper--wrapper-with-headline",
+          "filename": "dialog-wrapper--wrapper-with-headline--2x.png"
+        },
+        {
+          "name": "wrapper--wrapper-with-headline-no-divider",
+          "filename": "dialog-wrapper--wrapper-with-headline-no-divider--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Dialog.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/dialog/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/dialog"
+      }
+    },
+    {
+      "id": "divider",
+      "title": "Divider",
+      "category": "Content",
+      "defaultImage": "divider--large--2x.png",
+      "variants": [
+        {
+          "name": "-large",
+          "filename": "divider--large--2x.png"
+        },
+        {
+          "name": "-medium",
+          "filename": "divider--medium--2x.png"
+        },
+        {
+          "name": "-small",
+          "filename": "divider--small--2x.png"
+        },
+        {
+          "name": "-static-black",
+          "filename": "divider--static-black--2x.png"
+        },
+        {
+          "name": "-static-white",
+          "filename": "divider--static-white--2x.png"
+        },
+        {
+          "name": "-vertical-large",
+          "filename": "divider--vertical-large--2x.png"
+        },
+        {
+          "name": "-vertical-medium",
+          "filename": "divider--vertical-medium--2x.png"
+        },
+        {
+          "name": "-vertical-small",
+          "filename": "divider--vertical-small--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Divider.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/divider/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/divider"
+      }
+    },
+    {
+      "id": "dropzone",
+      "title": "Dropzone",
+      "category": "Content",
+      "defaultImage": "dropzone--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "dropzone--default--2x.png"
+        },
+        {
+          "name": "-controlled",
+          "filename": "dropzone--controlled--2x.png"
+        },
+        {
+          "name": "-dragged",
+          "filename": "dropzone--dragged--2x.png"
+        },
+        {
+          "name": "-filled",
+          "filename": "dropzone--filled--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Dropzone.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/dropzone/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/dropzone"
+      }
+    },
+    {
+      "id": "field",
+      "title": "Field",
+      "category": "Forms",
+      "defaultImage": "field-group--horizontal--2x.png",
+      "variants": [
+        {
+          "name": "group--horizontal",
+          "filename": "field-group--horizontal--2x.png"
+        },
+        {
+          "name": "group--vertical",
+          "filename": "field-group--vertical--2x.png"
+        },
+        {
+          "name": "label--native-input",
+          "filename": "field-label--native-input--2x.png"
+        },
+        {
+          "name": "label--picker",
+          "filename": "field-label--picker--2x.png"
+        },
+        {
+          "name": "label--required",
+          "filename": "field-label--required--2x.png"
+        },
+        {
+          "name": "label--side-align-end",
+          "filename": "field-label--side-align-end--2x.png"
+        },
+        {
+          "name": "label--side-align-start",
+          "filename": "field-label--side-align-start--2x.png"
+        },
+        {
+          "name": "label--standard",
+          "filename": "field-label--standard--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Field.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/field/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/field"
+      }
+    },
+    {
+      "id": "grid",
+      "title": "Grid",
+      "category": "Layout",
+      "defaultImage": "grid--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "grid--default--2x.png"
+        },
+        {
+          "name": "-scroll-parent-in-assigned-slot",
+          "filename": "grid--scroll-parent-in-assigned-slot--2x.png"
+        },
+        {
+          "name": "-sized",
+          "filename": "grid--sized--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Grid.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/grid/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/grid"
+      }
+    },
+    {
+      "id": "help",
+      "title": "Help",
+      "category": "Forms",
+      "defaultImage": "help-text--disabled--2x.png",
+      "variants": [
+        {
+          "name": "text--disabled",
+          "filename": "help-text--disabled--2x.png"
+        },
+        {
+          "name": "text--negative",
+          "filename": "help-text--negative--2x.png"
+        },
+        {
+          "name": "text--negative-icon",
+          "filename": "help-text--negative-icon--2x.png"
+        },
+        {
+          "name": "text--neutral",
+          "filename": "help-text--neutral--2x.png"
+        },
+        {
+          "name": "text-sizes--l",
+          "filename": "help-text-sizes--l--2x.png"
+        },
+        {
+          "name": "text-sizes--m",
+          "filename": "help-text-sizes--m--2x.png"
+        },
+        {
+          "name": "text-sizes--s",
+          "filename": "help-text-sizes--s--2x.png"
+        },
+        {
+          "name": "text-sizes--xl",
+          "filename": "help-text-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Help.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/help/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/help"
+      }
+    },
+    {
+      "id": "icon",
+      "title": "Icon",
+      "category": "Icons",
+      "defaultImage": "icon--image-icon--2x.png",
+      "variants": [
+        {
+          "name": "-image-icon",
+          "filename": "icon--image-icon--2x.png"
+        },
+        {
+          "name": "-image-icon-src-error",
+          "filename": "icon--image-icon-src-error--2x.png"
+        },
+        {
+          "name": "-large",
+          "filename": "icon--large--2x.png"
+        },
+        {
+          "name": "-medium",
+          "filename": "icon--medium--2x.png"
+        },
+        {
+          "name": "-svg-icon",
+          "filename": "icon--svg-icon--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Icon.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/icon/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/icon"
+      }
+    },
+    {
+      "id": "icons",
+      "title": "Icons",
+      "category": "Icons",
+      "defaultImage": "icons--list-large--2x.png",
+      "variants": [
+        {
+          "name": "-list-large",
+          "filename": "icons--list-large--2x.png"
+        },
+        {
+          "name": "-list-medium",
+          "filename": "icons--list-medium--2x.png"
+        },
+        {
+          "name": "ui--elements",
+          "filename": "icons-ui--elements--2x.png"
+        },
+        {
+          "name": "ui--icons",
+          "filename": "icons-ui--icons--2x.png"
+        },
+        {
+          "name": "workflow--elements",
+          "filename": "icons-workflow--elements--2x.png"
+        },
+        {
+          "name": "workflow--icons",
+          "filename": "icons-workflow--icons--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Icons.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/icons/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/icons"
+      }
+    },
+    {
+      "id": "illustratedmessage",
+      "title": "Illustratedmessage",
+      "category": "Content",
+      "defaultImage": "illustratedmessage--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "illustratedmessage--default--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Illustratedmessage.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/illustratedmessage/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/illustratedmessage"
+      }
+    },
+    {
+      "id": "infield",
+      "title": "Infield",
+      "category": "Content",
+      "defaultImage": "infield-button--default--2x.png",
+      "variants": [
+        {
+          "name": "button--default",
+          "filename": "infield-button--default--2x.png"
+        },
+        {
+          "name": "button--disabled",
+          "filename": "infield-button--disabled--2x.png"
+        },
+        {
+          "name": "button--inline-end",
+          "filename": "infield-button--inline-end--2x.png"
+        },
+        {
+          "name": "button--inline-start",
+          "filename": "infield-button--inline-start--2x.png"
+        },
+        {
+          "name": "button--quiet",
+          "filename": "infield-button--quiet--2x.png"
+        },
+        {
+          "name": "button--stacked",
+          "filename": "infield-button--stacked--2x.png"
+        },
+        {
+          "name": "button-sizes--l",
+          "filename": "infield-button-sizes--l--2x.png"
+        },
+        {
+          "name": "button-sizes--m",
+          "filename": "infield-button-sizes--m--2x.png"
+        },
+        {
+          "name": "button-sizes--s",
+          "filename": "infield-button-sizes--s--2x.png"
+        },
+        {
+          "name": "button-sizes--stacked-l",
+          "filename": "infield-button-sizes--stacked-l--2x.png"
+        },
+        {
+          "name": "button-sizes--stacked-m",
+          "filename": "infield-button-sizes--stacked-m--2x.png"
+        },
+        {
+          "name": "button-sizes--stacked-s",
+          "filename": "infield-button-sizes--stacked-s--2x.png"
+        },
+        {
+          "name": "button-sizes--stacked-xl",
+          "filename": "infield-button-sizes--stacked-xl--2x.png"
+        },
+        {
+          "name": "button-sizes--xl",
+          "filename": "infield-button-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Infield.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/infield/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/infield"
+      }
+    },
+    {
+      "id": "link",
+      "title": "Link",
+      "category": "Navigation",
+      "defaultImage": "link--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "link--default--2x.png"
+        },
+        {
+          "name": "-disabled",
+          "filename": "link--disabled--2x.png"
+        },
+        {
+          "name": "-download",
+          "filename": "link--download--2x.png"
+        },
+        {
+          "name": "-quiet",
+          "filename": "link--quiet--2x.png"
+        },
+        {
+          "name": "-secondary",
+          "filename": "link--secondary--2x.png"
+        },
+        {
+          "name": "-secondary-quiet",
+          "filename": "link--secondary-quiet--2x.png"
+        },
+        {
+          "name": "-static-black",
+          "filename": "link--static-black--2x.png"
+        },
+        {
+          "name": "-static-black-quiet",
+          "filename": "link--static-black-quiet--2x.png"
+        },
+        {
+          "name": "-static-white",
+          "filename": "link--static-white--2x.png"
+        },
+        {
+          "name": "-static-white-quiet",
+          "filename": "link--static-white-quiet--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Link.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/link/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/link"
+      }
+    },
+    {
+      "id": "menu",
+      "title": "Menu",
+      "category": "Collections",
+      "defaultImage": "menu-item--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "menu--default--2x.png"
+        },
+        {
+          "name": "item--default",
+          "filename": "menu-item--default--2x.png"
+        },
+        {
+          "name": "-controlled",
+          "filename": "menu--controlled--2x.png"
+        },
+        {
+          "name": "-dynamic-removal",
+          "filename": "menu--dynamic-removal--2x.png"
+        },
+        {
+          "name": "-headers-and-icons",
+          "filename": "menu--headers-and-icons--2x.png"
+        },
+        {
+          "name": "-inputs-with-menu",
+          "filename": "menu--inputs-with-menu--2x.png"
+        },
+        {
+          "name": "-menu-group-selects",
+          "filename": "menu--menu-group-selects--2x.png"
+        },
+        {
+          "name": "-menu-group-selects-multiple",
+          "filename": "menu--menu-group-selects-multiple--2x.png"
+        },
+        {
+          "name": "-menu-item-with-description",
+          "filename": "menu--menu-item-with-description--2x.png"
+        },
+        {
+          "name": "-menu-with-value-slots",
+          "filename": "menu--menu-with-value-slots--2x.png"
+        },
+        {
+          "name": "-multiple-select",
+          "filename": "menu--multiple-select--2x.png"
+        },
+        {
+          "name": "-selected",
+          "filename": "menu--selected--2x.png"
+        },
+        {
+          "name": "-selected-off-page",
+          "filename": "menu--selected-off-page--2x.png"
+        },
+        {
+          "name": "-selects-with-icons",
+          "filename": "menu--selects-with-icons--2x.png"
+        },
+        {
+          "name": "-single-select",
+          "filename": "menu--single-select--2x.png"
+        },
+        {
+          "name": "divider--size-l",
+          "filename": "menu-divider--size-l--2x.png"
+        },
+        {
+          "name": "divider--size-m",
+          "filename": "menu-divider--size-m--2x.png"
+        },
+        {
+          "name": "divider--size-s",
+          "filename": "menu-divider--size-s--2x.png"
+        },
+        {
+          "name": "group--complex-slotted",
+          "filename": "menu-group--complex-slotted--2x.png"
+        },
+        {
+          "name": "group--inherit",
+          "filename": "menu-group--inherit--2x.png"
+        },
+        {
+          "name": "group--mixed",
+          "filename": "menu-group--mixed--2x.png"
+        },
+        {
+          "name": "item--description-slot",
+          "filename": "menu-item--description-slot--2x.png"
+        },
+        {
+          "name": "item--href",
+          "filename": "menu-item--href--2x.png"
+        },
+        {
+          "name": "item--menu-item-with-checkbox",
+          "filename": "menu-item--menu-item-with-checkbox--2x.png"
+        },
+        {
+          "name": "item--no-wrap",
+          "filename": "menu-item--no-wrap--2x.png"
+        },
+        {
+          "name": "item--value-slot",
+          "filename": "menu-item--value-slot--2x.png"
+        },
+        {
+          "name": "item-disconnected--disconnected-child-items",
+          "filename": "menu-item-disconnected--disconnected-child-items--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "menu-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "menu-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "menu-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--xl",
+          "filename": "menu-sizes--xl--2x.png"
+        },
+        {
+          "name": "submenu--context-menu",
+          "filename": "menu-submenu--context-menu--2x.png"
+        },
+        {
+          "name": "submenu--custom-root-submenu",
+          "filename": "menu-submenu--custom-root-submenu--2x.png"
+        },
+        {
+          "name": "submenu--custom-root-submenu-with-scroll",
+          "filename": "menu-submenu--custom-root-submenu-with-scroll--2x.png"
+        },
+        {
+          "name": "submenu--submenu",
+          "filename": "menu-submenu--submenu--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Menu.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/menu/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/menu"
+      }
+    },
+    {
+      "id": "meter",
+      "title": "Meter",
+      "category": "Status",
+      "defaultImage": "meter--negative--2x.png",
+      "variants": [
+        {
+          "name": "-negative",
+          "filename": "meter--negative--2x.png"
+        },
+        {
+          "name": "-notice",
+          "filename": "meter--notice--2x.png"
+        },
+        {
+          "name": "-positive",
+          "filename": "meter--positive--2x.png"
+        },
+        {
+          "name": "-side-label",
+          "filename": "meter--side-label--2x.png"
+        },
+        {
+          "name": "-static-white",
+          "filename": "meter--static-white--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "meter-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "meter-sizes--s--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Meter.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/meter/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/meter"
+      }
+    },
+    {
+      "id": "number",
+      "title": "Number",
+      "category": "Forms",
+      "defaultImage": "number-field--default--2x.png",
+      "variants": [
+        {
+          "name": "field--default",
+          "filename": "number-field--default--2x.png"
+        },
+        {
+          "name": "field--currency",
+          "filename": "number-field--currency--2x.png"
+        },
+        {
+          "name": "field--decimals",
+          "filename": "number-field--decimals--2x.png"
+        },
+        {
+          "name": "field--disabled",
+          "filename": "number-field--disabled--2x.png"
+        },
+        {
+          "name": "field--german-decimals",
+          "filename": "number-field--german-decimals--2x.png"
+        },
+        {
+          "name": "field--hide-stepper",
+          "filename": "number-field--hide-stepper--2x.png"
+        },
+        {
+          "name": "field--hide-stepper-quiet",
+          "filename": "number-field--hide-stepper-quiet--2x.png"
+        },
+        {
+          "name": "field--indeterminate",
+          "filename": "number-field--indeterminate--2x.png"
+        },
+        {
+          "name": "field--min-max",
+          "filename": "number-field--min-max--2x.png"
+        },
+        {
+          "name": "field--percents",
+          "filename": "number-field--percents--2x.png"
+        },
+        {
+          "name": "field--pixels",
+          "filename": "number-field--pixels--2x.png"
+        },
+        {
+          "name": "field--quiet",
+          "filename": "number-field--quiet--2x.png"
+        },
+        {
+          "name": "field--read-only",
+          "filename": "number-field--read-only--2x.png"
+        },
+        {
+          "name": "field--scrolling-container",
+          "filename": "number-field--scrolling-container--2x.png"
+        },
+        {
+          "name": "field--units",
+          "filename": "number-field--units--2x.png"
+        },
+        {
+          "name": "field--validation-icons",
+          "filename": "number-field--validation-icons--2x.png"
+        },
+        {
+          "name": "field-sizes--l",
+          "filename": "number-field-sizes--l--2x.png"
+        },
+        {
+          "name": "field-sizes--m",
+          "filename": "number-field-sizes--m--2x.png"
+        },
+        {
+          "name": "field-sizes--no-size",
+          "filename": "number-field-sizes--no-size--2x.png"
+        },
+        {
+          "name": "field-sizes--s",
+          "filename": "number-field-sizes--s--2x.png"
+        },
+        {
+          "name": "field-sizes--xl",
+          "filename": "number-field-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Number.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/number/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/number"
+      }
+    },
+    {
+      "id": "overlay",
+      "title": "Overlay",
+      "category": "Content",
+      "defaultImage": "overlay-directive--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "overlay--default--2x.png"
+        },
+        {
+          "name": "directive--default",
+          "filename": "overlay-directive--default--2x.png"
+        },
+        {
+          "name": "-accordion",
+          "filename": "overlay--accordion--2x.png"
+        },
+        {
+          "name": "-click-and-hover-target",
+          "filename": "overlay--click-and-hover-target--2x.png"
+        },
+        {
+          "name": "-click-and-hover-targets",
+          "filename": "overlay--click-and-hover-targets--2x.png"
+        },
+        {
+          "name": "-click-content-closed-on-scroll",
+          "filename": "overlay--click-content-closed-on-scroll--2x.png"
+        },
+        {
+          "name": "-complex-modal",
+          "filename": "overlay--complex-modal--2x.png"
+        },
+        {
+          "name": "-customized-click-content",
+          "filename": "overlay--customized-click-content--2x.png"
+        },
+        {
+          "name": "-deep",
+          "filename": "overlay--deep--2x.png"
+        },
+        {
+          "name": "-deep-child-tooltip",
+          "filename": "overlay--deep-child-tooltip--2x.png"
+        },
+        {
+          "name": "-deep-nesting",
+          "filename": "overlay--deep-nesting--2x.png"
+        },
+        {
+          "name": "-defined-overlay-element",
+          "filename": "overlay--defined-overlay-element--2x.png"
+        },
+        {
+          "name": "-detached-element",
+          "filename": "overlay--detached-element--2x.png"
+        },
+        {
+          "name": "-disabled-overlay-trigger",
+          "filename": "overlay--disabled-overlay-trigger--2x.png"
+        },
+        {
+          "name": "-edges",
+          "filename": "overlay--edges--2x.png"
+        },
+        {
+          "name": "-hover-with-interactive-content",
+          "filename": "overlay--hover-with-interactive-content--2x.png"
+        },
+        {
+          "name": "-inline",
+          "filename": "overlay--inline--2x.png"
+        },
+        {
+          "name": "-longpress",
+          "filename": "overlay--longpress--2x.png"
+        },
+        {
+          "name": "-modal-loose",
+          "filename": "overlay--modal-loose--2x.png"
+        },
+        {
+          "name": "-modal-managed",
+          "filename": "overlay--modal-managed--2x.png"
+        },
+        {
+          "name": "-modal-no-focus",
+          "filename": "overlay--modal-no-focus--2x.png"
+        },
+        {
+          "name": "-modal-within-non-modal",
+          "filename": "overlay--modal-within-non-modal--2x.png"
+        },
+        {
+          "name": "-no-close-on-resize",
+          "filename": "overlay--no-close-on-resize--2x.png"
+        },
+        {
+          "name": "-open-click-content",
+          "filename": "overlay--open-click-content--2x.png"
+        },
+        {
+          "name": "-open-hover-content",
+          "filename": "overlay--open-hover-content--2x.png"
+        },
+        {
+          "name": "-picker-in-dialog",
+          "filename": "overlay--picker-in-dialog--2x.png"
+        },
+        {
+          "name": "-replace",
+          "filename": "overlay--replace--2x.png"
+        },
+        {
+          "name": "-side-hover-draggable",
+          "filename": "overlay--side-hover-draggable--2x.png"
+        },
+        {
+          "name": "-super-complex-modal",
+          "filename": "overlay--super-complex-modal--2x.png"
+        },
+        {
+          "name": "-triggered-by-optimization",
+          "filename": "overlay--triggered-by-optimization--2x.png"
+        },
+        {
+          "name": "-updated",
+          "filename": "overlay--updated--2x.png"
+        },
+        {
+          "name": "-updating",
+          "filename": "overlay--updating--2x.png"
+        },
+        {
+          "name": "-virtual-element",
+          "filename": "overlay--virtual-element--2x.png"
+        },
+        {
+          "name": "-virtual-element-declaratively",
+          "filename": "overlay--virtual-element-declaratively--2x.png"
+        },
+        {
+          "name": "-virtual-element-v-1",
+          "filename": "overlay--virtual-element-v-1--2x.png"
+        },
+        {
+          "name": "-with-interactive-content",
+          "filename": "overlay--with-interactive-content--2x.png"
+        },
+        {
+          "name": "directive--configured",
+          "filename": "overlay-directive--configured--2x.png"
+        },
+        {
+          "name": "directive--insertion-options",
+          "filename": "overlay-directive--insertion-options--2x.png"
+        },
+        {
+          "name": "directive--managed-overlay-trigger",
+          "filename": "overlay-directive--managed-overlay-trigger--2x.png"
+        },
+        {
+          "name": "element--action-group",
+          "filename": "overlay-element--action-group--2x.png"
+        },
+        {
+          "name": "element--action-group-with-filters",
+          "filename": "overlay-element--action-group-with-filters--2x.png"
+        },
+        {
+          "name": "element--all",
+          "filename": "overlay-element--all--2x.png"
+        },
+        {
+          "name": "element--click",
+          "filename": "overlay-element--click--2x.png"
+        },
+        {
+          "name": "element--complex-slow-page",
+          "filename": "overlay-element--complex-slow-page--2x.png"
+        },
+        {
+          "name": "element--contained",
+          "filename": "overlay-element--contained--2x.png"
+        },
+        {
+          "name": "element--hover",
+          "filename": "overlay-element--hover--2x.png"
+        },
+        {
+          "name": "element--hover-tooltip",
+          "filename": "overlay-element--hover-tooltip--2x.png"
+        },
+        {
+          "name": "element--lazy-elements",
+          "filename": "overlay-element--lazy-elements--2x.png"
+        },
+        {
+          "name": "element--longpress",
+          "filename": "overlay-element--longpress--2x.png"
+        },
+        {
+          "name": "element--modal",
+          "filename": "overlay-element--modal--2x.png"
+        },
+        {
+          "name": "element--nested-modal-overlays",
+          "filename": "overlay-element--nested-modal-overlays--2x.png"
+        },
+        {
+          "name": "element--page",
+          "filename": "overlay-element--page--2x.png"
+        },
+        {
+          "name": "element--receives-focus",
+          "filename": "overlay-element--receives-focus--2x.png"
+        },
+        {
+          "name": "element--transformed",
+          "filename": "overlay-element--transformed--2x.png"
+        },
+        {
+          "name": "element--transient-hover",
+          "filename": "overlay-element--transient-hover--2x.png"
+        },
+        {
+          "name": "element--with-slider",
+          "filename": "overlay-element--with-slider--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Overlay.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/overlay/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/overlay"
+      }
+    },
+    {
+      "id": "picker",
+      "title": "Picker",
+      "category": "Collections",
+      "defaultImage": "picker--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "picker--default--2x.png"
+        },
+        {
+          "name": "-background-click-test",
+          "filename": "picker--background-click-test--2x.png"
+        },
+        {
+          "name": "-custom",
+          "filename": "picker--custom--2x.png"
+        },
+        {
+          "name": "-disabled",
+          "filename": "picker--disabled--2x.png"
+        },
+        {
+          "name": "-dynamic-icons",
+          "filename": "picker--dynamic-icons--2x.png"
+        },
+        {
+          "name": "-force-popover-on-mobile",
+          "filename": "picker--force-popover-on-mobile--2x.png"
+        },
+        {
+          "name": "-icon-value",
+          "filename": "picker--icon-value--2x.png"
+        },
+        {
+          "name": "-icons",
+          "filename": "picker--icons--2x.png"
+        },
+        {
+          "name": "-icons-none",
+          "filename": "picker--icons-none--2x.png"
+        },
+        {
+          "name": "-icons-only",
+          "filename": "picker--icons-only--2x.png"
+        },
+        {
+          "name": "-initial-value",
+          "filename": "picker--initial-value--2x.png"
+        },
+        {
+          "name": "-invalid",
+          "filename": "picker--invalid--2x.png"
+        },
+        {
+          "name": "-left-side-label",
+          "filename": "picker--left-side-label--2x.png"
+        },
+        {
+          "name": "-no-visible-label",
+          "filename": "picker--no-visible-label--2x.png"
+        },
+        {
+          "name": "-open",
+          "filename": "picker--open--2x.png"
+        },
+        {
+          "name": "-open-showing-edge-case",
+          "filename": "picker--open-showing-edge-case--2x.png"
+        },
+        {
+          "name": "-picker-in-modal-overlay",
+          "filename": "picker--picker-in-modal-overlay--2x.png"
+        },
+        {
+          "name": "-quiet",
+          "filename": "picker--quiet--2x.png"
+        },
+        {
+          "name": "-quiet-side-label",
+          "filename": "picker--quiet-side-label--2x.png"
+        },
+        {
+          "name": "-readonly",
+          "filename": "picker--readonly--2x.png"
+        },
+        {
+          "name": "-slotted-label",
+          "filename": "picker--slotted-label--2x.png"
+        },
+        {
+          "name": "-tooltip",
+          "filename": "picker--tooltip--2x.png"
+        },
+        {
+          "name": "button--active",
+          "filename": "picker-button--active--2x.png"
+        },
+        {
+          "name": "button--custom-icon",
+          "filename": "picker-button--custom-icon--2x.png"
+        },
+        {
+          "name": "button--invalid",
+          "filename": "picker-button--invalid--2x.png"
+        },
+        {
+          "name": "button--label",
+          "filename": "picker-button--label--2x.png"
+        },
+        {
+          "name": "button--label-custom",
+          "filename": "picker-button--label-custom--2x.png"
+        },
+        {
+          "name": "button--open",
+          "filename": "picker-button--open--2x.png"
+        },
+        {
+          "name": "button--position-left",
+          "filename": "picker-button--position-left--2x.png"
+        },
+        {
+          "name": "button--position-right",
+          "filename": "picker-button--position-right--2x.png"
+        },
+        {
+          "name": "button--quiet",
+          "filename": "picker-button--quiet--2x.png"
+        },
+        {
+          "name": "button--rounded",
+          "filename": "picker-button--rounded--2x.png"
+        },
+        {
+          "name": "button--rounded-label",
+          "filename": "picker-button--rounded-label--2x.png"
+        },
+        {
+          "name": "button-sizes--l",
+          "filename": "picker-button-sizes--l--2x.png"
+        },
+        {
+          "name": "button-sizes--l-label",
+          "filename": "picker-button-sizes--l-label--2x.png"
+        },
+        {
+          "name": "button-sizes--m",
+          "filename": "picker-button-sizes--m--2x.png"
+        },
+        {
+          "name": "button-sizes--m-label",
+          "filename": "picker-button-sizes--m-label--2x.png"
+        },
+        {
+          "name": "button-sizes--s",
+          "filename": "picker-button-sizes--s--2x.png"
+        },
+        {
+          "name": "button-sizes--s-label",
+          "filename": "picker-button-sizes--s-label--2x.png"
+        },
+        {
+          "name": "button-sizes--xl",
+          "filename": "picker-button-sizes--xl--2x.png"
+        },
+        {
+          "name": "button-sizes--xl-label",
+          "filename": "picker-button-sizes--xl-label--2x.png"
+        },
+        {
+          "name": "pending--l",
+          "filename": "picker-pending--l--2x.png"
+        },
+        {
+          "name": "pending--m",
+          "filename": "picker-pending--m--2x.png"
+        },
+        {
+          "name": "pending--s",
+          "filename": "picker-pending--s--2x.png"
+        },
+        {
+          "name": "pending--xl",
+          "filename": "picker-pending--xl--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "picker-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--l-open",
+          "filename": "picker-sizes--l-open--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "picker-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--m-open",
+          "filename": "picker-sizes--m-open--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "picker-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--s-open",
+          "filename": "picker-sizes--s-open--2x.png"
+        },
+        {
+          "name": "sizes--xl",
+          "filename": "picker-sizes--xl--2x.png"
+        },
+        {
+          "name": "sizes--xl-open",
+          "filename": "picker-sizes--xl-open--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Picker.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/picker/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/picker"
+      }
+    },
+    {
+      "id": "popover",
+      "title": "Popover",
+      "category": "Overlays",
+      "defaultImage": "popover--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "popover--default--2x.png"
+        },
+        {
+          "name": "-dialog-bottom",
+          "filename": "popover--dialog-bottom--2x.png"
+        },
+        {
+          "name": "-dialog-left",
+          "filename": "popover--dialog-left--2x.png"
+        },
+        {
+          "name": "-dialog-right",
+          "filename": "popover--dialog-right--2x.png"
+        },
+        {
+          "name": "-dialog-top",
+          "filename": "popover--dialog-top--2x.png"
+        },
+        {
+          "name": "-overlaid-bottom",
+          "filename": "popover--overlaid-bottom--2x.png"
+        },
+        {
+          "name": "-overlaid-left",
+          "filename": "popover--overlaid-left--2x.png"
+        },
+        {
+          "name": "-overlaid-right",
+          "filename": "popover--overlaid-right--2x.png"
+        },
+        {
+          "name": "-overlaid-top",
+          "filename": "popover--overlaid-top--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Popover.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/popover/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/popover"
+      }
+    },
+    {
+      "id": "progress",
+      "title": "Progress",
+      "category": "Status",
+      "defaultImage": "progress-circle--default--2x.png",
+      "variants": [
+        {
+          "name": "circle--default",
+          "filename": "progress-circle--default--2x.png"
+        },
+        {
+          "name": "bar--indeterminate",
+          "filename": "progress-bar--indeterminate--2x.png"
+        },
+        {
+          "name": "bar--label",
+          "filename": "progress-bar--label--2x.png"
+        },
+        {
+          "name": "bar--side-indeterminate",
+          "filename": "progress-bar--side-indeterminate--2x.png"
+        },
+        {
+          "name": "bar--side-label",
+          "filename": "progress-bar--side-label--2x.png"
+        },
+        {
+          "name": "bar--static-white",
+          "filename": "progress-bar--static-white--2x.png"
+        },
+        {
+          "name": "bar--static-white-indeterminate",
+          "filename": "progress-bar--static-white-indeterminate--2x.png"
+        },
+        {
+          "name": "bar--static-white-label",
+          "filename": "progress-bar--static-white-label--2x.png"
+        },
+        {
+          "name": "bar--static-white-side-label",
+          "filename": "progress-bar--static-white-side-label--2x.png"
+        },
+        {
+          "name": "bar--static-white-side-label-indeterminate",
+          "filename": "progress-bar--static-white-side-label-indeterminate--2x.png"
+        },
+        {
+          "name": "bar-sizes--l",
+          "filename": "progress-bar-sizes--l--2x.png"
+        },
+        {
+          "name": "bar-sizes--m",
+          "filename": "progress-bar-sizes--m--2x.png"
+        },
+        {
+          "name": "bar-sizes--s",
+          "filename": "progress-bar-sizes--s--2x.png"
+        },
+        {
+          "name": "bar-sizes--xl",
+          "filename": "progress-bar-sizes--xl--2x.png"
+        },
+        {
+          "name": "circle--in-button",
+          "filename": "progress-circle--in-button--2x.png"
+        },
+        {
+          "name": "circle--static-white",
+          "filename": "progress-circle--static-white--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Progress.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/progress/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/progress"
+      }
+    },
+    {
+      "id": "radio",
+      "title": "Radio",
+      "category": "Forms",
+      "defaultImage": "radio--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "radio--default--2x.png"
+        },
+        {
+          "name": "-autofocus",
+          "filename": "radio--autofocus--2x.png"
+        },
+        {
+          "name": "-disabled",
+          "filename": "radio--disabled--2x.png"
+        },
+        {
+          "name": "-emphasized",
+          "filename": "radio--emphasized--2x.png"
+        },
+        {
+          "name": "-group-example",
+          "filename": "radio--group-example--2x.png"
+        },
+        {
+          "name": "-horizontal-group",
+          "filename": "radio--horizontal-group--2x.png"
+        },
+        {
+          "name": "-horizontal-tab-index-example",
+          "filename": "radio--horizontal-tab-index-example--2x.png"
+        },
+        {
+          "name": "-invalid",
+          "filename": "radio--invalid--2x.png"
+        },
+        {
+          "name": "-readonly",
+          "filename": "radio--readonly--2x.png"
+        },
+        {
+          "name": "-tab-index-example",
+          "filename": "radio--tab-index-example--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "radio-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "radio-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "radio-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--xl",
+          "filename": "radio-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Radio.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/radio/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/radio"
+      }
+    },
+    {
+      "id": "search",
+      "title": "Search",
+      "category": "Forms",
+      "defaultImage": "search--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "search--default--2x.png"
+        },
+        {
+          "name": "-autofocus",
+          "filename": "search--autofocus--2x.png"
+        },
+        {
+          "name": "-focused-overflowing",
+          "filename": "search--focused-overflowing--2x.png"
+        },
+        {
+          "name": "-hold-value-on-escape",
+          "filename": "search--hold-value-on-escape--2x.png"
+        },
+        {
+          "name": "-quiet",
+          "filename": "search--quiet--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "search-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "search-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--no-size",
+          "filename": "search-sizes--no-size--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "search-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--xl",
+          "filename": "search-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Search.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/search/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/search"
+      }
+    },
+    {
+      "id": "sidenav",
+      "title": "Sidenav",
+      "category": "Content",
+      "defaultImage": "sidenav--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "sidenav--default--2x.png"
+        },
+        {
+          "name": "-hrefs",
+          "filename": "sidenav--hrefs--2x.png"
+        },
+        {
+          "name": "-levels-and-disabled",
+          "filename": "sidenav--levels-and-disabled--2x.png"
+        },
+        {
+          "name": "-manage-tab-index",
+          "filename": "sidenav--manage-tab-index--2x.png"
+        },
+        {
+          "name": "-multilevel",
+          "filename": "sidenav--multilevel--2x.png"
+        },
+        {
+          "name": "-multilevel-slotted",
+          "filename": "sidenav--multilevel-slotted--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Sidenav.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/sidenav/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/sidenav"
+      }
+    },
+    {
+      "id": "slider",
+      "title": "Slider",
+      "category": "Forms",
+      "defaultImage": "slider--has-a-default-value--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "slider--default--2x.png"
+        },
+        {
+          "name": "-editable-with-default-value",
+          "filename": "slider--editable-with-default-value--2x.png"
+        },
+        {
+          "name": "-has-a-default-value",
+          "filename": "slider--has-a-default-value--2x.png"
+        },
+        {
+          "name": "-autofocus",
+          "filename": "slider--autofocus--2x.png"
+        },
+        {
+          "name": "-disabled",
+          "filename": "slider--disabled--2x.png"
+        },
+        {
+          "name": "-editable",
+          "filename": "slider--editable--2x.png"
+        },
+        {
+          "name": "-editable-custom",
+          "filename": "slider--editable-custom--2x.png"
+        },
+        {
+          "name": "-editable-disabled",
+          "filename": "slider--editable-disabled--2x.png"
+        },
+        {
+          "name": "-editable-with-fraction-value",
+          "filename": "slider--editable-with-fraction-value--2x.png"
+        },
+        {
+          "name": "-editable-without-visible-labels",
+          "filename": "slider--editable-without-visible-labels--2x.png"
+        },
+        {
+          "name": "-explicit-handle",
+          "filename": "slider--explicit-handle--2x.png"
+        },
+        {
+          "name": "-fill-start",
+          "filename": "slider--fill-start--2x.png"
+        },
+        {
+          "name": "-fill-start-with-negative-min-range",
+          "filename": "slider--fill-start-with-negative-min-range--2x.png"
+        },
+        {
+          "name": "-fill-start-with-value",
+          "filename": "slider--fill-start-with-value--2x.png"
+        },
+        {
+          "name": "-filled",
+          "filename": "slider--filled--2x.png"
+        },
+        {
+          "name": "-focus-tab-demo",
+          "filename": "slider--focus-tab-demo--2x.png"
+        },
+        {
+          "name": "-gradient",
+          "filename": "slider--gradient--2x.png"
+        },
+        {
+          "name": "-hide-stepper",
+          "filename": "slider--hide-stepper--2x.png"
+        },
+        {
+          "name": "-in-popover",
+          "filename": "slider--in-popover--2x.png"
+        },
+        {
+          "name": "-indeterminate",
+          "filename": "slider--indeterminate--2x.png"
+        },
+        {
+          "name": "-max-20",
+          "filename": "slider--max-20--2x.png"
+        },
+        {
+          "name": "-minimal-dom",
+          "filename": "slider--minimal-dom--2x.png"
+        },
+        {
+          "name": "-multiple",
+          "filename": "slider--multiple--2x.png"
+        },
+        {
+          "name": "-no-visible-labels",
+          "filename": "slider--no-visible-labels--2x.png"
+        },
+        {
+          "name": "-no-visible-text-label",
+          "filename": "slider--no-visible-text-label--2x.png"
+        },
+        {
+          "name": "-no-visible-value-label",
+          "filename": "slider--no-visible-value-label--2x.png"
+        },
+        {
+          "name": "-px",
+          "filename": "slider--px--2x.png"
+        },
+        {
+          "name": "-quiet",
+          "filename": "slider--quiet--2x.png"
+        },
+        {
+          "name": "-three-handles-complex",
+          "filename": "slider--three-handles-complex--2x.png"
+        },
+        {
+          "name": "-three-handles-ordered",
+          "filename": "slider--three-handles-ordered--2x.png"
+        },
+        {
+          "name": "-three-handles-pc",
+          "filename": "slider--three-handles-pc--2x.png"
+        },
+        {
+          "name": "-tick",
+          "filename": "slider--tick--2x.png"
+        },
+        {
+          "name": "-tick-labels",
+          "filename": "slider--tick-labels--2x.png"
+        },
+        {
+          "name": "-two-handles",
+          "filename": "slider--two-handles--2x.png"
+        },
+        {
+          "name": "-two-handles-pt",
+          "filename": "slider--two-handles-pt--2x.png"
+        },
+        {
+          "name": "-with-popover",
+          "filename": "slider--with-popover--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "slider-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--l-editable",
+          "filename": "slider-sizes--l-editable--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "slider-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--m-editable",
+          "filename": "slider-sizes--m-editable--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "slider-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--s-editable",
+          "filename": "slider-sizes--s-editable--2x.png"
+        },
+        {
+          "name": "sizes--xl",
+          "filename": "slider-sizes--xl--2x.png"
+        },
+        {
+          "name": "sizes--xl-editable",
+          "filename": "slider-sizes--xl-editable--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Slider.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/slider/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/slider"
+      }
+    },
+    {
+      "id": "split",
+      "title": "Split",
+      "category": "Layout",
+      "defaultImage": "split-view--horizontal--2x.png",
+      "variants": [
+        {
+          "name": "view--horizontal",
+          "filename": "split-view--horizontal--2x.png"
+        },
+        {
+          "name": "view--horizontal-resizable",
+          "filename": "split-view--horizontal-resizable--2x.png"
+        },
+        {
+          "name": "view--horizontal-resizable-collapsible",
+          "filename": "split-view--horizontal-resizable-collapsible--2x.png"
+        },
+        {
+          "name": "view--multiple-levels",
+          "filename": "split-view--multiple-levels--2x.png"
+        },
+        {
+          "name": "view--one-pane-no-splitter",
+          "filename": "split-view--one-pane-no-splitter--2x.png"
+        },
+        {
+          "name": "view--show-first-two-panes",
+          "filename": "split-view--show-first-two-panes--2x.png"
+        },
+        {
+          "name": "view--vertical",
+          "filename": "split-view--vertical--2x.png"
+        },
+        {
+          "name": "view--vertical-resizable",
+          "filename": "split-view--vertical-resizable--2x.png"
+        },
+        {
+          "name": "view--vertical-resizable-collapsible",
+          "filename": "split-view--vertical-resizable-collapsible--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Split.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/split/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/split"
+      }
+    },
+    {
+      "id": "statuslight",
+      "title": "Statuslight",
+      "category": "Status",
+      "defaultImage": "statuslight--disabled-true--2x.png",
+      "variants": [
+        {
+          "name": "-disabled-true",
+          "filename": "statuslight--disabled-true--2x.png"
+        },
+        {
+          "name": "-l",
+          "filename": "statuslight--l--2x.png"
+        },
+        {
+          "name": "-m",
+          "filename": "statuslight--m--2x.png"
+        },
+        {
+          "name": "-s",
+          "filename": "statuslight--s--2x.png"
+        },
+        {
+          "name": "-xl",
+          "filename": "statuslight--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Statuslight.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/statuslight/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/statuslight"
+      }
+    },
+    {
+      "id": "styles",
+      "title": "Styles",
+      "category": "Content",
+      "defaultImage": "styles--dividers--2x.png",
+      "variants": [
+        {
+          "name": "-dividers",
+          "filename": "styles--dividers--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Styles.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/styles/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/styles"
+      }
+    },
+    {
+      "id": "swatch",
+      "title": "Swatch",
+      "category": "Content",
+      "defaultImage": "swatch-group--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "swatch--default--2x.png"
+        },
+        {
+          "name": "group--default",
+          "filename": "swatch-group--default--2x.png"
+        },
+        {
+          "name": "-border-light",
+          "filename": "swatch--border-light--2x.png"
+        },
+        {
+          "name": "-border-none",
+          "filename": "swatch--border-none--2x.png"
+        },
+        {
+          "name": "-gradient",
+          "filename": "swatch--gradient--2x.png"
+        },
+        {
+          "name": "-mixed-value",
+          "filename": "swatch--mixed-value--2x.png"
+        },
+        {
+          "name": "-nothing",
+          "filename": "swatch--nothing--2x.png"
+        },
+        {
+          "name": "-opacity",
+          "filename": "swatch--opacity--2x.png"
+        },
+        {
+          "name": "-rounding-full",
+          "filename": "swatch--rounding-full--2x.png"
+        },
+        {
+          "name": "-rounding-none",
+          "filename": "swatch--rounding-none--2x.png"
+        },
+        {
+          "name": "-shape-rectangle",
+          "filename": "swatch--shape-rectangle--2x.png"
+        },
+        {
+          "name": "group--border-light",
+          "filename": "swatch-group--border-light--2x.png"
+        },
+        {
+          "name": "group--border-none",
+          "filename": "swatch-group--border-none--2x.png"
+        },
+        {
+          "name": "group--density-compact",
+          "filename": "swatch-group--density-compact--2x.png"
+        },
+        {
+          "name": "group--density-spacious",
+          "filename": "swatch-group--density-spacious--2x.png"
+        },
+        {
+          "name": "group--rounding-full",
+          "filename": "swatch-group--rounding-full--2x.png"
+        },
+        {
+          "name": "group--rounding-none",
+          "filename": "swatch-group--rounding-none--2x.png"
+        },
+        {
+          "name": "group--selects-multiple",
+          "filename": "swatch-group--selects-multiple--2x.png"
+        },
+        {
+          "name": "group--selects-single",
+          "filename": "swatch-group--selects-single--2x.png"
+        },
+        {
+          "name": "group--shape-rectangle",
+          "filename": "swatch-group--shape-rectangle--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "swatch-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "swatch-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "swatch-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--xs",
+          "filename": "swatch-sizes--xs--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Swatch.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/swatch/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/swatch"
+      }
+    },
+    {
+      "id": "switch",
+      "title": "Switch",
+      "category": "Forms",
+      "defaultImage": "switch--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "switch--default--2x.png"
+        },
+        {
+          "name": "-autofocus",
+          "filename": "switch--autofocus--2x.png"
+        },
+        {
+          "name": "-checked",
+          "filename": "switch--checked--2x.png"
+        },
+        {
+          "name": "-disabled",
+          "filename": "switch--disabled--2x.png"
+        },
+        {
+          "name": "-disabled-checked",
+          "filename": "switch--disabled-checked--2x.png"
+        },
+        {
+          "name": "-emphasized",
+          "filename": "switch--emphasized--2x.png"
+        },
+        {
+          "name": "-emphasized-checked",
+          "filename": "switch--emphasized-checked--2x.png"
+        },
+        {
+          "name": "-readonly",
+          "filename": "switch--readonly--2x.png"
+        },
+        {
+          "name": "-sizes",
+          "filename": "switch--sizes--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "switch-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "switch-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "switch-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--xl",
+          "filename": "switch-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Switch.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/switch/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/switch"
+      }
+    },
+    {
+      "id": "table",
+      "title": "Table",
+      "category": "Collections",
+      "defaultImage": "table--elements--2x.png",
+      "variants": [
+        {
+          "name": "-elements",
+          "filename": "table--elements--2x.png"
+        },
+        {
+          "name": "-emphasized",
+          "filename": "table--emphasized--2x.png"
+        },
+        {
+          "name": "-no-selects-specified",
+          "filename": "table--no-selects-specified--2x.png"
+        },
+        {
+          "name": "-selects-multiple",
+          "filename": "table--selects-multiple--2x.png"
+        },
+        {
+          "name": "-selects-single",
+          "filename": "table--selects-single--2x.png"
+        },
+        {
+          "name": "-small",
+          "filename": "table--small--2x.png"
+        },
+        {
+          "name": "virtualized--virtualized",
+          "filename": "table-virtualized--virtualized--2x.png"
+        },
+        {
+          "name": "virtualized--virtualized-custom-row",
+          "filename": "table-virtualized--virtualized-custom-row--2x.png"
+        },
+        {
+          "name": "virtualized--virtualized-custom-value",
+          "filename": "table-virtualized--virtualized-custom-value--2x.png"
+        },
+        {
+          "name": "virtualized--virtualized-multiple",
+          "filename": "table-virtualized--virtualized-multiple--2x.png"
+        },
+        {
+          "name": "virtualized--virtualized-no-scroller",
+          "filename": "table-virtualized--virtualized-no-scroller--2x.png"
+        },
+        {
+          "name": "virtualized--virtualized-single",
+          "filename": "table-virtualized--virtualized-single--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Table.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/table/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/table"
+      }
+    },
+    {
+      "id": "tabs",
+      "title": "Tabs",
+      "category": "Navigation",
+      "defaultImage": "tabs--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "tabs--default--2x.png"
+        },
+        {
+          "name": "-autofocus",
+          "filename": "tabs--autofocus--2x.png"
+        },
+        {
+          "name": "-compact",
+          "filename": "tabs--compact--2x.png"
+        },
+        {
+          "name": "-disabled-tab",
+          "filename": "tabs--disabled-tab--2x.png"
+        },
+        {
+          "name": "-disabled-tabs",
+          "filename": "tabs--disabled-tabs--2x.png"
+        },
+        {
+          "name": "-emphasized",
+          "filename": "tabs--emphasized--2x.png"
+        },
+        {
+          "name": "-emphasized-quiet",
+          "filename": "tabs--emphasized-quiet--2x.png"
+        },
+        {
+          "name": "-icons",
+          "filename": "tabs--icons--2x.png"
+        },
+        {
+          "name": "-icons-ii",
+          "filename": "tabs--icons-ii--2x.png"
+        },
+        {
+          "name": "-icons-iii",
+          "filename": "tabs--icons-iii--2x.png"
+        },
+        {
+          "name": "-icons-only",
+          "filename": "tabs--icons-only--2x.png"
+        },
+        {
+          "name": "-icons-with-slotted-label",
+          "filename": "tabs--icons-with-slotted-label--2x.png"
+        },
+        {
+          "name": "-quiet",
+          "filename": "tabs--quiet--2x.png"
+        },
+        {
+          "name": "-quiet-compact",
+          "filename": "tabs--quiet-compact--2x.png"
+        },
+        {
+          "name": "-vertical",
+          "filename": "tabs--vertical--2x.png"
+        },
+        {
+          "name": "-vertical-compact",
+          "filename": "tabs--vertical-compact--2x.png"
+        },
+        {
+          "name": "-vertical-emphasized-quiet",
+          "filename": "tabs--vertical-emphasized-quiet--2x.png"
+        },
+        {
+          "name": "-vertical-quiet",
+          "filename": "tabs--vertical-quiet--2x.png"
+        },
+        {
+          "name": "-vertical-quiet-compact",
+          "filename": "tabs--vertical-quiet-compact--2x.png"
+        },
+        {
+          "name": "-vertical-right",
+          "filename": "tabs--vertical-right--2x.png"
+        },
+        {
+          "name": "-vertical-sized",
+          "filename": "tabs--vertical-sized--2x.png"
+        },
+        {
+          "name": "overflow--autoscroll",
+          "filename": "tabs-overflow--autoscroll--2x.png"
+        },
+        {
+          "name": "overflow--autoscroll-only-horizontally",
+          "filename": "tabs-overflow--autoscroll-only-horizontally--2x.png"
+        },
+        {
+          "name": "overflow--compact",
+          "filename": "tabs-overflow--compact--2x.png"
+        },
+        {
+          "name": "overflow-sizes--l",
+          "filename": "tabs-overflow-sizes--l--2x.png"
+        },
+        {
+          "name": "overflow-sizes--m",
+          "filename": "tabs-overflow-sizes--m--2x.png"
+        },
+        {
+          "name": "overflow-sizes--s",
+          "filename": "tabs-overflow-sizes--s--2x.png"
+        },
+        {
+          "name": "overflow-sizes--xl",
+          "filename": "tabs-overflow-sizes--xl--2x.png"
+        },
+        {
+          "name": "overflow-sizes-with-panel--l",
+          "filename": "tabs-overflow-sizes-with-panel--l--2x.png"
+        },
+        {
+          "name": "overflow-sizes-with-panel--m",
+          "filename": "tabs-overflow-sizes-with-panel--m--2x.png"
+        },
+        {
+          "name": "overflow-sizes-with-panel--s",
+          "filename": "tabs-overflow-sizes-with-panel--s--2x.png"
+        },
+        {
+          "name": "overflow-sizes-with-panel--xl",
+          "filename": "tabs-overflow-sizes-with-panel--xl--2x.png"
+        },
+        {
+          "name": "sizes-horizontal--l",
+          "filename": "tabs-sizes-horizontal--l--2x.png"
+        },
+        {
+          "name": "sizes-horizontal--m",
+          "filename": "tabs-sizes-horizontal--m--2x.png"
+        },
+        {
+          "name": "sizes-horizontal--s",
+          "filename": "tabs-sizes-horizontal--s--2x.png"
+        },
+        {
+          "name": "sizes-horizontal--xl",
+          "filename": "tabs-sizes-horizontal--xl--2x.png"
+        },
+        {
+          "name": "sizes-vertical--l",
+          "filename": "tabs-sizes-vertical--l--2x.png"
+        },
+        {
+          "name": "sizes-vertical--m",
+          "filename": "tabs-sizes-vertical--m--2x.png"
+        },
+        {
+          "name": "sizes-vertical--s",
+          "filename": "tabs-sizes-vertical--s--2x.png"
+        },
+        {
+          "name": "sizes-vertical--xl",
+          "filename": "tabs-sizes-vertical--xl--2x.png"
+        },
+        {
+          "name": "sizes-vertical-right--l",
+          "filename": "tabs-sizes-vertical-right--l--2x.png"
+        },
+        {
+          "name": "sizes-vertical-right--m",
+          "filename": "tabs-sizes-vertical-right--m--2x.png"
+        },
+        {
+          "name": "sizes-vertical-right--s",
+          "filename": "tabs-sizes-vertical-right--s--2x.png"
+        },
+        {
+          "name": "sizes-vertical-right--xl",
+          "filename": "tabs-sizes-vertical-right--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Tabs.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/tabs/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/tabs"
+      }
+    },
+    {
+      "id": "tags",
+      "title": "Tags",
+      "category": "Content",
+      "defaultImage": "tags--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "tags--default--2x.png"
+        },
+        {
+          "name": "-deletable",
+          "filename": "tags--deletable--2x.png"
+        },
+        {
+          "name": "-readonly",
+          "filename": "tags--readonly--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "tags-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "tags-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "tags-sizes--s--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Tags.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/tags/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/tags"
+      }
+    },
+    {
+      "id": "textarea",
+      "title": "Textarea",
+      "category": "Forms",
+      "defaultImage": "textarea--default-autofocus--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "textarea--default--2x.png"
+        },
+        {
+          "name": "-default-autofocus",
+          "filename": "textarea--default-autofocus--2x.png"
+        },
+        {
+          "name": "-grows",
+          "filename": "textarea--grows--2x.png"
+        },
+        {
+          "name": "-grows-empty",
+          "filename": "textarea--grows-empty--2x.png"
+        },
+        {
+          "name": "-grows-quiet",
+          "filename": "textarea--grows-quiet--2x.png"
+        },
+        {
+          "name": "-grows-with-large-words",
+          "filename": "textarea--grows-with-large-words--2x.png"
+        },
+        {
+          "name": "-quiet",
+          "filename": "textarea--quiet--2x.png"
+        },
+        {
+          "name": "-quiet-autofocus",
+          "filename": "textarea--quiet-autofocus--2x.png"
+        },
+        {
+          "name": "-readonly",
+          "filename": "textarea--readonly--2x.png"
+        },
+        {
+          "name": "-resize-controls",
+          "filename": "textarea--resize-controls--2x.png"
+        },
+        {
+          "name": "-rows-defeats-grows",
+          "filename": "textarea--rows-defeats-grows--2x.png"
+        },
+        {
+          "name": "-sized",
+          "filename": "textarea--sized--2x.png"
+        },
+        {
+          "name": "-with-1-row",
+          "filename": "textarea--with-1-row--2x.png"
+        },
+        {
+          "name": "-with-5-rows",
+          "filename": "textarea--with-5-rows--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "textarea-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "textarea-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--no-size",
+          "filename": "textarea-sizes--no-size--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "textarea-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--xl",
+          "filename": "textarea-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Textarea.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/textarea/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/textarea"
+      }
+    },
+    {
+      "id": "textfield",
+      "title": "Textfield",
+      "category": "Forms",
+      "defaultImage": "textfield--default-autofocus--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "textfield--default--2x.png"
+        },
+        {
+          "name": "-default-autofocus",
+          "filename": "textfield--default-autofocus--2x.png"
+        },
+        {
+          "name": "-allowed-keys",
+          "filename": "textfield--allowed-keys--2x.png"
+        },
+        {
+          "name": "-empty",
+          "filename": "textfield--empty--2x.png"
+        },
+        {
+          "name": "-grows-only",
+          "filename": "textfield--grows-only--2x.png"
+        },
+        {
+          "name": "-not-required-with-pattern",
+          "filename": "textfield--not-required-with-pattern--2x.png"
+        },
+        {
+          "name": "-quiet",
+          "filename": "textfield--quiet--2x.png"
+        },
+        {
+          "name": "-quiet-autofocus",
+          "filename": "textfield--quiet-autofocus--2x.png"
+        },
+        {
+          "name": "-readonly",
+          "filename": "textfield--readonly--2x.png"
+        },
+        {
+          "name": "-sized",
+          "filename": "textfield--sized--2x.png"
+        },
+        {
+          "name": "-types",
+          "filename": "textfield--types--2x.png"
+        },
+        {
+          "name": "-with-name-attribute",
+          "filename": "textfield--with-name-attribute--2x.png"
+        },
+        {
+          "name": "sizes--l",
+          "filename": "textfield-sizes--l--2x.png"
+        },
+        {
+          "name": "sizes--m",
+          "filename": "textfield-sizes--m--2x.png"
+        },
+        {
+          "name": "sizes--no-size",
+          "filename": "textfield-sizes--no-size--2x.png"
+        },
+        {
+          "name": "sizes--s",
+          "filename": "textfield-sizes--s--2x.png"
+        },
+        {
+          "name": "sizes--xl",
+          "filename": "textfield-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Textfield.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/textfield/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/textfield"
+      }
+    },
+    {
+      "id": "theme",
+      "title": "Theme",
+      "category": "Content",
+      "defaultImage": "theme--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "theme--default--2x.png"
+        },
+        {
+          "name": "-display-flex",
+          "filename": "theme--display-flex--2x.png"
+        },
+        {
+          "name": "-nested-theme",
+          "filename": "theme--nested-theme--2x.png"
+        },
+        {
+          "name": "-none",
+          "filename": "theme--none--2x.png"
+        },
+        {
+          "name": "-reverse-color-nested-theme",
+          "filename": "theme--reverse-color-nested-theme--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Theme.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/theme/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/theme"
+      }
+    },
+    {
+      "id": "thumbnail",
+      "title": "Thumbnail",
+      "category": "Content",
+      "defaultImage": "thumbnail--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "thumbnail--default--2x.png"
+        },
+        {
+          "name": "-background",
+          "filename": "thumbnail--background--2x.png"
+        },
+        {
+          "name": "-disabled",
+          "filename": "thumbnail--disabled--2x.png"
+        },
+        {
+          "name": "-focused",
+          "filename": "thumbnail--focused--2x.png"
+        },
+        {
+          "name": "-landscape",
+          "filename": "thumbnail--landscape--2x.png"
+        },
+        {
+          "name": "-landscape-cover",
+          "filename": "thumbnail--landscape-cover--2x.png"
+        },
+        {
+          "name": "-layer",
+          "filename": "thumbnail--layer--2x.png"
+        },
+        {
+          "name": "-layer-selected",
+          "filename": "thumbnail--layer-selected--2x.png"
+        },
+        {
+          "name": "-portrait",
+          "filename": "thumbnail--portrait--2x.png"
+        },
+        {
+          "name": "-portrait-cover",
+          "filename": "thumbnail--portrait-cover--2x.png"
+        },
+        {
+          "name": "sizes--size-100",
+          "filename": "thumbnail-sizes--size-100--2x.png"
+        },
+        {
+          "name": "sizes--size-1000",
+          "filename": "thumbnail-sizes--size-1000--2x.png"
+        },
+        {
+          "name": "sizes--size-200",
+          "filename": "thumbnail-sizes--size-200--2x.png"
+        },
+        {
+          "name": "sizes--size-300",
+          "filename": "thumbnail-sizes--size-300--2x.png"
+        },
+        {
+          "name": "sizes--size-400",
+          "filename": "thumbnail-sizes--size-400--2x.png"
+        },
+        {
+          "name": "sizes--size-50",
+          "filename": "thumbnail-sizes--size-50--2x.png"
+        },
+        {
+          "name": "sizes--size-500",
+          "filename": "thumbnail-sizes--size-500--2x.png"
+        },
+        {
+          "name": "sizes--size-600",
+          "filename": "thumbnail-sizes--size-600--2x.png"
+        },
+        {
+          "name": "sizes--size-700",
+          "filename": "thumbnail-sizes--size-700--2x.png"
+        },
+        {
+          "name": "sizes--size-75",
+          "filename": "thumbnail-sizes--size-75--2x.png"
+        },
+        {
+          "name": "sizes--size-800",
+          "filename": "thumbnail-sizes--size-800--2x.png"
+        },
+        {
+          "name": "sizes--size-900",
+          "filename": "thumbnail-sizes--size-900--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Thumbnail.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/thumbnail/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/thumbnail"
+      }
+    },
+    {
+      "id": "toast",
+      "title": "Toast",
+      "category": "Status",
+      "defaultImage": "toast--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "toast--default--2x.png"
+        },
+        {
+          "name": "-info",
+          "filename": "toast--info--2x.png"
+        },
+        {
+          "name": "-negative",
+          "filename": "toast--negative--2x.png"
+        },
+        {
+          "name": "-overlaid-bottom",
+          "filename": "toast--overlaid-bottom--2x.png"
+        },
+        {
+          "name": "-overlaid-left",
+          "filename": "toast--overlaid-left--2x.png"
+        },
+        {
+          "name": "-overlaid-right",
+          "filename": "toast--overlaid-right--2x.png"
+        },
+        {
+          "name": "-overlaid-top",
+          "filename": "toast--overlaid-top--2x.png"
+        },
+        {
+          "name": "-overlay",
+          "filename": "toast--overlay--2x.png"
+        },
+        {
+          "name": "-positive",
+          "filename": "toast--positive--2x.png"
+        },
+        {
+          "name": "-wrapping",
+          "filename": "toast--wrapping--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Toast.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/toast/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/toast"
+      }
+    },
+    {
+      "id": "tooltip",
+      "title": "Tooltip",
+      "category": "Overlays",
+      "defaultImage": "tooltip-directive--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "tooltip--default--2x.png"
+        },
+        {
+          "name": "directive--default",
+          "filename": "tooltip-directive--default--2x.png"
+        },
+        {
+          "name": "-delayed-tooltip-with-overlay",
+          "filename": "tooltip--delayed-tooltip-with-overlay--2x.png"
+        },
+        {
+          "name": "-draggable",
+          "filename": "tooltip--draggable--2x.png"
+        },
+        {
+          "name": "-overlaid-bottom",
+          "filename": "tooltip--overlaid-bottom--2x.png"
+        },
+        {
+          "name": "-overlaid-left",
+          "filename": "tooltip--overlaid-left--2x.png"
+        },
+        {
+          "name": "-overlaid-right",
+          "filename": "tooltip--overlaid-right--2x.png"
+        },
+        {
+          "name": "-overlaid-top",
+          "filename": "tooltip--overlaid-top--2x.png"
+        },
+        {
+          "name": "-overlaid-top-start",
+          "filename": "tooltip--overlaid-top-start--2x.png"
+        },
+        {
+          "name": "-self-managed",
+          "filename": "tooltip--self-managed--2x.png"
+        },
+        {
+          "name": "-self-managed-field-label",
+          "filename": "tooltip--self-managed-field-label--2x.png"
+        },
+        {
+          "name": "-self-managed-icon-only",
+          "filename": "tooltip--self-managed-icon-only--2x.png"
+        },
+        {
+          "name": "-w-icon",
+          "filename": "tooltip--w-icon--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Tooltip.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/tooltip/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/tooltip"
+      }
+    },
+    {
+      "id": "top",
+      "title": "Top",
+      "category": "Content",
+      "defaultImage": "top-nav--default--2x.png",
+      "variants": [
+        {
+          "name": "nav--default",
+          "filename": "top-nav--default--2x.png"
+        },
+        {
+          "name": "nav--autofocus",
+          "filename": "top-nav--autofocus--2x.png"
+        },
+        {
+          "name": "nav--modes",
+          "filename": "top-nav--modes--2x.png"
+        },
+        {
+          "name": "nav--selected",
+          "filename": "top-nav--selected--2x.png"
+        },
+        {
+          "name": "nav-sizes--l",
+          "filename": "top-nav-sizes--l--2x.png"
+        },
+        {
+          "name": "nav-sizes--m",
+          "filename": "top-nav-sizes--m--2x.png"
+        },
+        {
+          "name": "nav-sizes--s",
+          "filename": "top-nav-sizes--s--2x.png"
+        },
+        {
+          "name": "nav-sizes--xl",
+          "filename": "top-nav-sizes--xl--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Top.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/top/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/top"
+      }
+    },
+    {
+      "id": "tray",
+      "title": "Tray",
+      "category": "Content",
+      "defaultImage": "tray--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "tray--default--2x.png"
+        },
+        {
+          "name": "-menu",
+          "filename": "tray--menu--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Tray.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/tray/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/tray"
+      }
+    },
+    {
+      "id": "truncated",
+      "title": "Truncated",
+      "category": "Content",
+      "defaultImage": "truncated--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "truncated--default--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Truncated.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/truncated/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/truncated"
+      }
+    },
+    {
+      "id": "underlay",
+      "title": "Underlay",
+      "category": "Content",
+      "defaultImage": "underlay--default--2x.png",
+      "variants": [
+        {
+          "name": "-default",
+          "filename": "underlay--default--2x.png"
+        }
+      ],
+      "links": {
+        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Underlay.html",
+        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/underlay/",
+        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/underlay"
+      }
+    }
+  ]
+}

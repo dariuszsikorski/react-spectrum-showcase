@@ -18,3 +18,4 @@ export function AvatarDemo() {
 }
 
 export default AvatarDemo
+

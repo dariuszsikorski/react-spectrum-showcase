@@ -35,3 +35,4 @@ export function ColorSliderDemo() {
 }
 
 export default ColorSliderDemo
+

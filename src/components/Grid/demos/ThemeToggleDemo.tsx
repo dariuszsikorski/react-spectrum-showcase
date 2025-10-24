@@ -1,5 +1,5 @@
 import { Button, View, Text, Flex } from '@adobe/react-spectrum'
-import { useTheme } from '../../contexts/theme-context'
+import { useTheme } from '../../../contexts/theme-context'
 
 export function ThemeToggleDemo() {
   const { colorScheme, cycleColorScheme } = useTheme()
@@ -20,3 +20,4 @@ export function ThemeToggleDemo() {
 }
 
 export default ThemeToggleDemo
+

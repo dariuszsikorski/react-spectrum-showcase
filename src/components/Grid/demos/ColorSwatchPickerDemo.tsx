@@ -36,3 +36,4 @@ export function ColorSwatchPickerDemo() {
 }
 
 export default ColorSwatchPickerDemo
+

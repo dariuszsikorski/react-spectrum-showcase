@@ -1,0 +1,373 @@
+{
+  "accordion": {
+    "variants": [
+      "allow-multiple",
+      "default",
+      "disabled",
+      "open"
+    ]
+  },
+  "accordion-densities-compact": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "accordion-densities-spacious": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "accordion-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-accent-fill": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-accent-fill-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-accent-fill-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-accent-outline": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-accent-outline-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-accent-outline-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-black-fill": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "primary",
+      "secondary",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-black-fill-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-black-fill-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-black-outline": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "primary",
+      "secondary",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-black-outline-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-black-outline-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-group": {
+    "variants": [
+      "buttons",
+      "buttons-vertical"
+    ]
+  },
+  "button-group-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "vertical-l",
+      "vertical-m",
+      "vertical-s",
+      "vertical-xl",
+      "xl"
+    ]
+  },
+  "button-negative-fill": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-negative-fill-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-negative-fill-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-negative-outline": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-negative-outline-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-negative-outline-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-primary-fill": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "no-wrap-button",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-primary-fill-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-primary-fill-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-primary-outline": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-primary-outline-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-primary-outline-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-secondary-fill": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-secondary-fill-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-secondary-fill-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-secondary-outline": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-secondary-outline-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-secondary-outline-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-white-fill": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "primary",
+      "secondary",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-white-fill-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-white-fill-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-white-outline": {
+    "variants": [
+      "default",
+      "link",
+      "link-with-target",
+      "min-width-button",
+      "primary",
+      "secondary",
+      "with-icon",
+      "with-icon-only"
+    ]
+  },
+  "button-white-outline-pending": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  },
+  "button-white-outline-sizes": {
+    "variants": [
+      "l",
+      "m",
+      "s",
+      "xl"
+    ]
+  }
+}

@@ -5,21 +5,30 @@ import {
   Flex,
   Heading,
   View,
-  Text
+  Text,
+  RadioGroup,
+  Radio
 } from '@adobe/react-spectrum'
 import { useTheme } from './contexts/theme-context'
 import { useSpectrumScale } from './contexts/SpectrumScaleContext'
 import { HighlightProvider } from './contexts/highlight-context'
+import { ViewModeProvider, useViewMode } from './contexts/view-mode-context'
 import { useResponsive } from './hooks/useResponsive'
 import { lighten, darken, getReadableContentColor } from './utils/color'
 import { SidebarDemo } from './components/Sidebar'
 import { GridGallery } from './components/Grid/GridGallery'
+import { ScreenshotGallery } from './components/Screenshot'
 import './App.css'
 
 function AppContent() {
   const { colorScheme } = useTheme()
   const { spectrumScale } = useSpectrumScale()
   const { isDesktop } = useResponsive()
+  const { viewMode, setViewMode } = useViewMode()
+  
+  const handleViewModeChange = (value: string) => {
+    setViewMode(value as 'live' | 'screenshots')
+  }
   
   const getAccentStorageKey = (scheme: 'light' | 'dark') => `accentHex_${scheme}`
   const accentColorHex = React.useMemo(() => {
@@ -68,6 +77,17 @@ function AppContent() {
           <Flex direction="column" gap="size-300" width="100%" maxWidth="100%">
             <Flex direction="column" gap="size-200" width="100%" maxWidth="100%">
               <Heading level={1}>Component Gallery</Heading>
+              <RadioGroup
+                value={viewMode}
+                onChange={handleViewModeChange}
+                orientation="horizontal"
+                UNSAFE_style={{ fontSize: '0.9rem' }}
+              >
+                <Radio value="live">React Components</Radio>
+                <Radio value="screenshots">Webcomponents</Radio>
+              </RadioGroup>
+            </Flex>
+            <Flex direction="column" gap="size-200" width="100%" maxWidth="100%">
               <Text UNSAFE_style={{ fontSize: '1.1rem', lineHeight: '1.6', maxWidth: '800px' }}>
                 Explore the comprehensive collection of React Spectrum components in this interactive showcase. 
                 Built on Adobe's design system, these components are accessible, adaptive, and support both 
@@ -99,8 +119,11 @@ function AppContent() {
                 </Text>
               </Flex>
             </Flex>
-            <GridGallery />
-            
+            {viewMode === 'live' ? (
+              <GridGallery />
+            ) : (
+              <ScreenshotGallery />
+            )}
             {/* Footer attribution */}
             <Flex direction="column" gap="size-100" UNSAFE_style={{ paddingTop: '1rem', borderTop: '1px solid var(--spectrum-global-color-gray-300)' }}>
               <Text UNSAFE_style={{ fontSize: '0.75rem', opacity: 0.6, textAlign: 'center' }}>
@@ -121,7 +144,11 @@ function AppContent() {
 }
 
 function App() {
-  return <AppContent />
+  return (
+    <ViewModeProvider>
+      <AppContent />
+    </ViewModeProvider>
+  )
 }
 
 export default App

@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Adobe React Spectrum repository (too large)
+official-react-spectrum-repo

@@ -23,6 +23,7 @@ import { HamburgerButton } from './HamburgerButton'
 import { useTheme } from '../../contexts/theme-context'
 import { useSpectrumScale } from '../../contexts/SpectrumScaleContext'
 import { useHighlight } from '../../contexts/highlight-context'
+import { useViewMode } from '../../contexts/view-mode-context'
 import { useResponsive } from '../../hooks/useResponsive'
 import { useDisclosureState } from '../../hooks/useDisclosureState'
 import { useDebounce } from '../../hooks/useDebounce'
@@ -31,8 +32,16 @@ import { getCategoryIcon } from '../../utils/categoryIconMap'
 import { PhosphorIcon } from '../PhosphorIcon'
 import { generateComponentId, componentCategories } from '../Grid/GridGallery'
 import { scrollToComponent, handleInitialHash } from '../../utils/scroll'
+import componentsData from '../../data/components.json'
+import type { Component } from '../Screenshot/types'
 
 type CategoryWithFiltered = typeof componentCategories[0] & { filteredComponents: typeof componentCategories[0]['components'] }
+
+interface WebComponentCategory {
+  title: string
+  components: Component[]
+  filteredComponents: Component[]
+}
 
 export function SidebarDemo() {
   const [isOpen, setIsOpen] = useState(false)
@@ -40,6 +49,7 @@ export function SidebarDemo() {
   const { setSpectrumScale } = useSpectrumScale()
   const { scale, setScale } = useResponsive()
   const { highlightItem } = useHighlight()
+  const { viewMode } = useViewMode()
   const [searchTerm, setSearchTerm] = useState('')
   const debouncedSearchTerm = useDebounce(searchTerm, 300)
 
@@ -70,30 +80,58 @@ export function SidebarDemo() {
     return noDiacritics.replace(/\s+/g, ' ').trim()
   }
 
-  // Filter categories and components based on search
+  // Filter categories based on view mode
   const filteredCategories = useMemo(() => {
-    if (!debouncedSearchTerm) {
-      return componentCategories.map(cat => ({
-        ...cat,
-        filteredComponents: cat.components
-      }))
-    }
+    if (viewMode === 'screenshots') {
+      // WebComponents mode - group by category
+      const normalized = normalizeText(debouncedSearchTerm)
+      const allComponents = componentsData.components as Component[]
+      
+      const grouped: Record<string, Component[]> = {}
+      allComponents.forEach(component => {
+        if (!grouped[component.category]) {
+          grouped[component.category] = []
+        }
+        grouped[component.category].push(component)
+      })
 
-    const normalized = normalizeText(debouncedSearchTerm)
-    
-    return componentCategories
-      .map(cat => ({
-        ...cat,
-        filteredComponents: cat.components.filter(demo =>
-          normalizeText(demo.title).includes(normalized)
-        )
-      }))
-      .filter(cat => cat.filteredComponents.length > 0)
-  }, [debouncedSearchTerm])
+      const categoriesArray: WebComponentCategory[] = Object.entries(grouped).map(([title, comps]) => ({
+        title,
+        components: comps,
+        filteredComponents: !debouncedSearchTerm
+          ? comps
+          : comps.filter(c =>
+              normalizeText(c.title).includes(normalized) ||
+              normalizeText(c.category).includes(normalized)
+            )
+      })).filter(cat => cat.filteredComponents.length > 0)
+
+      return categoriesArray as any
+    } else {
+      // Live components mode - existing logic
+      if (!debouncedSearchTerm) {
+        return componentCategories.map(cat => ({
+          ...cat,
+          filteredComponents: cat.components
+        }))
+      }
+
+      const normalized = normalizeText(debouncedSearchTerm)
+      
+      return componentCategories
+        .map(cat => ({
+          ...cat,
+          filteredComponents: cat.components.filter(demo =>
+            normalizeText(demo.title).includes(normalized)
+          )
+        }))
+        .filter(cat => cat.filteredComponents.length > 0)
+    }
+  }, [debouncedSearchTerm, viewMode])
 
   // Calculate total filtered components
   const filteredComponentCount = useMemo(() =>
-    filteredCategories.reduce((sum, cat) => sum + cat.filteredComponents.length, 0),
+    filteredCategories.reduce((sum: number, cat: any) => sum + cat.filteredComponents.length, 0),
     [filteredCategories]
   )
 
@@ -126,15 +164,27 @@ export function SidebarDemo() {
   // Central content - Grouped component list
   const centralContent = (
     <Flex direction="column" gap="size-0">
-      {/* Disclosure Groups - No gaps between them */}
-      {filteredCategories.map((category, categoryIndex) => (
-        <CategoryDisclosure
-          key={categoryIndex}
-          category={category}
-          onComponentClick={handleComponentClick}
-          searchTerm={searchTerm}
-        />
-      ))}
+      {viewMode === 'screenshots' ? (
+        // WebComponents disclosure
+        (filteredCategories as WebComponentCategory[]).map((category, categoryIndex) => (
+          <WebComponentCategoryDisclosure
+            key={categoryIndex}
+            category={category}
+            setIsOpen={setIsOpen}
+            searchTerm={searchTerm}
+          />
+        ))
+      ) : (
+        // Live components disclosure
+        (filteredCategories as CategoryWithFiltered[]).map((category, categoryIndex) => (
+          <CategoryDisclosure
+            key={categoryIndex}
+            category={category}
+            onComponentClick={handleComponentClick}
+            searchTerm={searchTerm}
+          />
+        ))
+      )}
 
       {/* Empty State */}
       {filteredComponentCount === 0 && (
@@ -273,6 +323,50 @@ function CategoryDisclosure({
               </a>
             )
           })}
+        </Flex>
+      </DisclosurePanel>
+    </Disclosure>
+  )
+}
+
+// WebComponent category disclosure
+function WebComponentCategoryDisclosure({
+  category,
+  setIsOpen,
+  searchTerm
+}: {
+  category: WebComponentCategory
+  setIsOpen: (value: boolean) => void
+  searchTerm: string
+}) {
+  const { isExpanded, toggleExpanded } = useDisclosureState(category.title, true)
+  const IconComponent = getCategoryIcon(category.title)
+  
+  const shouldExpand = searchTerm.length > 0 || isExpanded
+
+  return (
+    <Disclosure key={category.title} isExpanded={shouldExpand} onExpandedChange={toggleExpanded}>
+      <DisclosureTitle UNSAFE_className="sidebar-disclosure-title">
+        <Flex alignItems="center">
+          <PhosphorIcon icon={IconComponent as any} size="S" />
+          <Text UNSAFE_style={{ fontSize: '11px', fontWeight: '600', marginLeft: '0.25rem' }}>
+            {category.title}
+          </Text>
+        </Flex>
+      </DisclosureTitle>
+      <DisclosurePanel>
+        <Flex direction="column" gap="size-50" marginTop="size-75">
+          {category.filteredComponents.map((component, index) => (
+            <a
+              key={index}
+              href={`#${component.id}`}
+              onClick={() => setIsOpen(false)}
+              className="sidebar-component-link"
+              title={component.title}
+            >
+              {component.title}
+            </a>
+          ))}
         </Flex>
       </DisclosurePanel>
     </Disclosure>
