@@ -6,6 +6,7 @@ import {
   ProgressCircle
 } from '@adobe/react-spectrum'
 import { getAssetPath } from '../../utils/paths'
+import { BASE_URLS } from '../../config/baseUrls'
 import type { Component } from './types'
 
 interface ScreenshotModalProps {
@@ -100,7 +101,7 @@ export function ScreenshotModal({ component, isOpen, onClose }: ScreenshotModalP
             {component.links.reactSpectrum && (
               <Button variant="secondary">
                 <a 
-                  href={component.links.reactSpectrum} 
+                  href={BASE_URLS.reactSpectrum + component.links.reactSpectrum} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   style={{ color: 'inherit', textDecoration: 'none' }}
@@ -112,7 +113,7 @@ export function ScreenshotModal({ component, isOpen, onClose }: ScreenshotModalP
             {component.links.storybook && (
               <Button variant="secondary">
                 <a 
-                  href={component.links.storybook} 
+                  href={BASE_URLS.storybook + component.links.storybook} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   style={{ color: 'inherit', textDecoration: 'none' }}
@@ -124,7 +125,7 @@ export function ScreenshotModal({ component, isOpen, onClose }: ScreenshotModalP
             {component.links.webComponent && (
               <Button variant="secondary">
                 <a 
-                  href={component.links.webComponent} 
+                  href={BASE_URLS.webComponent + component.links.webComponent} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   style={{ color: 'inherit', textDecoration: 'none' }}

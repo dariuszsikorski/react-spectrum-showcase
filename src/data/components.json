@@ -83,9 +83,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Accordion.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/accordion/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/accordion"
+        "reactSpectrum": "/react-spectrum/Accordion.html",
+        "webComponent": "/components/accordion/",
+        "storybook": "/?path=/story/accordion"
       }
     },
     {
@@ -528,9 +528,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Action.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/action/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/action"
+        "reactSpectrum": "/react-spectrum/ActionButton.html",
+        "webComponent": "/components/action-button/",
+        "storybook": "/?path=/story/action-button"
       }
     },
     {
@@ -585,9 +585,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Alert.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/alert/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/alert"
+        "reactSpectrum": "/react-spectrum/Alert.html",
+        "webComponent": "/components/alert/",
+        "storybook": "/?path=/story/alert"
       }
     },
     {
@@ -610,9 +610,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Asset.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/asset/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/asset"
+        "reactSpectrum": "/react-spectrum/Asset.html",
+        "webComponent": "/components/asset/",
+        "storybook": "/?path=/story/asset"
       }
     },
     {
@@ -667,9 +667,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Avatar.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/avatar/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/avatar"
+        "reactSpectrum": "/react-spectrum/Avatar.html",
+        "webComponent": "/components/avatar/",
+        "storybook": "/?path=/story/avatar"
       }
     },
     {
@@ -708,9 +708,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Badge.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/badge/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/badge"
+        "reactSpectrum": "/react-spectrum/Badge.html",
+        "webComponent": "/components/badge/",
+        "storybook": "/?path=/story/badge"
       }
     },
     {
@@ -749,9 +749,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Breadcrumbs.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/breadcrumbs/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/breadcrumbs"
+        "reactSpectrum": "/react-spectrum/Breadcrumbs.html",
+        "webComponent": "/components/breadcrumbs/",
+        "storybook": "/?path=/story/breadcrumbs"
       }
     },
     {
@@ -1510,9 +1510,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Button.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/button/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/button"
+        "reactSpectrum": "/react-spectrum/Button.html",
+        "webComponent": "/components/button/",
+        "storybook": "/?path=/story/button"
       }
     },
     {
@@ -1583,9 +1583,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Card.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/card/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/card"
+        "reactSpectrum": "/react-spectrum/Card.html",
+        "webComponent": "/components/card/",
+        "storybook": "/?path=/story/card"
       }
     },
     {
@@ -1732,9 +1732,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Checkbox.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/checkbox/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/checkbox"
+        "reactSpectrum": "/react-spectrum/Checkbox.html",
+        "webComponent": "/components/checkbox/",
+        "storybook": "/?path=/story/checkbox"
       }
     },
     {
@@ -1761,9 +1761,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Coachindicator.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/coachindicator/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/coachindicator"
+        "reactSpectrum": "/react-spectrum/Coachindicator.html",
+        "webComponent": "/components/coachindicator/",
+        "storybook": "/?path=/story/coachindicator"
       }
     },
     {
@@ -1810,9 +1810,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Coachmark.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/coachmark/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/coachmark"
+        "reactSpectrum": "/react-spectrum/Coachmark.html",
+        "webComponent": "/components/coachmark/",
+        "storybook": "/?path=/story/coachmark"
       }
     },
     {
@@ -1951,9 +1951,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Color.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/color/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/color"
+        "reactSpectrum": "/react-spectrum/Color.html",
+        "webComponent": "/components/color/",
+        "storybook": "/?path=/story/color"
       }
     },
     {
@@ -2056,9 +2056,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Combobox.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/combobox/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/combobox"
+        "reactSpectrum": "/react-spectrum/ComboBox.html",
+        "webComponent": "/components/combobox/",
+        "storybook": "/?path=/story/combobox"
       }
     },
     {
@@ -2085,9 +2085,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Contextual.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/contextual/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/contextual"
+        "reactSpectrum": "/react-spectrum/Contextual.html",
+        "webComponent": "/components/contextual/",
+        "storybook": "/?path=/story/contextual"
       }
     },
     {
@@ -2238,9 +2238,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Dialog.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/dialog/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/dialog"
+        "reactSpectrum": "/react-spectrum/Dialog.html",
+        "webComponent": "/components/dialog/",
+        "storybook": "/?path=/story/dialog"
       }
     },
     {
@@ -2283,9 +2283,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Divider.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/divider/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/divider"
+        "reactSpectrum": "/react-spectrum/Divider.html",
+        "webComponent": "/components/divider/",
+        "storybook": "/?path=/story/divider"
       }
     },
     {
@@ -2312,9 +2312,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Dropzone.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/dropzone/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/dropzone"
+        "reactSpectrum": "/react-spectrum/DropZone.html",
+        "webComponent": "/components/dropzone/",
+        "storybook": "/?path=/story/dropzone"
       }
     },
     {
@@ -2357,9 +2357,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Field.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/field/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/field"
+        "reactSpectrum": "/react-spectrum/Field.html",
+        "webComponent": "/components/field/",
+        "storybook": "/?path=/story/field"
       }
     },
     {
@@ -2382,9 +2382,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Grid.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/grid/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/grid"
+        "reactSpectrum": "/react-spectrum/Grid.html",
+        "webComponent": "/components/grid/",
+        "storybook": "/?path=/story/grid"
       }
     },
     {
@@ -2427,9 +2427,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Help.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/help/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/help"
+        "reactSpectrum": "/react-spectrum/Help.html",
+        "webComponent": "/components/help/",
+        "storybook": "/?path=/story/help"
       }
     },
     {
@@ -2460,9 +2460,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Icon.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/icon/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/icon"
+        "reactSpectrum": "/react-spectrum/Icon.html",
+        "webComponent": "/components/icon/",
+        "storybook": "/?path=/story/icon"
       }
     },
     {
@@ -2497,9 +2497,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Icons.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/icons/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/icons"
+        "reactSpectrum": "/react-spectrum/Icons.html",
+        "webComponent": "/components/icons/",
+        "storybook": "/?path=/story/icons"
       }
     },
     {
@@ -2514,9 +2514,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Illustratedmessage.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/illustratedmessage/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/illustratedmessage"
+        "reactSpectrum": "/react-spectrum/Illustratedmessage.html",
+        "webComponent": "/components/illustratedmessage/",
+        "storybook": "/?path=/story/illustratedmessage"
       }
     },
     {
@@ -2583,9 +2583,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Infield.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/infield/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/infield"
+        "reactSpectrum": "/react-spectrum/Infield.html",
+        "webComponent": "/components/infield/",
+        "storybook": "/?path=/story/infield"
       }
     },
     {
@@ -2636,9 +2636,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Link.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/link/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/link"
+        "reactSpectrum": "/react-spectrum/Link.html",
+        "webComponent": "/components/link/",
+        "storybook": "/?path=/story/link"
       }
     },
     {
@@ -2789,9 +2789,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Menu.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/menu/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/menu"
+        "reactSpectrum": "/react-spectrum/Menu.html",
+        "webComponent": "/components/menu/",
+        "storybook": "/?path=/story/menu"
       }
     },
     {
@@ -2830,9 +2830,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Meter.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/meter/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/meter"
+        "reactSpectrum": "/react-spectrum/Meter.html",
+        "webComponent": "/components/meter/",
+        "storybook": "/?path=/story/meter"
       }
     },
     {
@@ -2927,9 +2927,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Number.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/number/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/number"
+        "reactSpectrum": "/react-spectrum/Number.html",
+        "webComponent": "/components/number/",
+        "storybook": "/?path=/story/number"
       }
     },
     {
@@ -3164,9 +3164,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Overlay.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/overlay/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/overlay"
+        "reactSpectrum": "/react-spectrum/Overlay.html",
+        "webComponent": "/components/overlay/",
+        "storybook": "/?path=/story/overlay"
       }
     },
     {
@@ -3389,9 +3389,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Picker.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/picker/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/picker"
+        "reactSpectrum": "/react-spectrum/Picker.html",
+        "webComponent": "/components/picker/",
+        "storybook": "/?path=/story/picker"
       }
     },
     {
@@ -3438,9 +3438,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Popover.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/popover/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/popover"
+        "reactSpectrum": "/react-spectrum/Popover.html",
+        "webComponent": "/components/popover/",
+        "storybook": "/?path=/story/popover"
       }
     },
     {
@@ -3515,9 +3515,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Progress.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/progress/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/progress"
+        "reactSpectrum": "/react-spectrum/Progress.html",
+        "webComponent": "/components/progress/",
+        "storybook": "/?path=/story/progress"
       }
     },
     {
@@ -3584,9 +3584,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Radio.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/radio/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/radio"
+        "reactSpectrum": "/react-spectrum/Radio.html",
+        "webComponent": "/components/radio/",
+        "storybook": "/?path=/story/radio"
       }
     },
     {
@@ -3637,9 +3637,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Search.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/search/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/search"
+        "reactSpectrum": "/react-spectrum/Search.html",
+        "webComponent": "/components/search/",
+        "storybook": "/?path=/story/search"
       }
     },
     {
@@ -3674,9 +3674,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Sidenav.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/sidenav/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/sidenav"
+        "reactSpectrum": "/react-spectrum/Sidenav.html",
+        "webComponent": "/components/sidenav/",
+        "storybook": "/?path=/story/sidenav"
       }
     },
     {
@@ -3863,9 +3863,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Slider.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/slider/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/slider"
+        "reactSpectrum": "/react-spectrum/Slider.html",
+        "webComponent": "/components/slider/",
+        "storybook": "/?path=/story/slider"
       }
     },
     {
@@ -3912,9 +3912,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Split.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/split/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/split"
+        "reactSpectrum": "/react-spectrum/Split.html",
+        "webComponent": "/components/split/",
+        "storybook": "/?path=/story/split"
       }
     },
     {
@@ -3945,9 +3945,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Statuslight.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/statuslight/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/statuslight"
+        "reactSpectrum": "/react-spectrum/Statuslight.html",
+        "webComponent": "/components/statuslight/",
+        "storybook": "/?path=/story/statuslight"
       }
     },
     {
@@ -3962,9 +3962,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Styles.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/styles/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/styles"
+        "reactSpectrum": "/react-spectrum/Styles.html",
+        "webComponent": "/components/styles/",
+        "storybook": "/?path=/story/styles"
       }
     },
     {
@@ -4071,9 +4071,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Swatch.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/swatch/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/swatch"
+        "reactSpectrum": "/react-spectrum/Swatch.html",
+        "webComponent": "/components/swatch/",
+        "storybook": "/?path=/story/swatch"
       }
     },
     {
@@ -4136,9 +4136,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Switch.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/switch/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/switch"
+        "reactSpectrum": "/react-spectrum/Switch.html",
+        "webComponent": "/components/switch/",
+        "storybook": "/?path=/story/switch"
       }
     },
     {
@@ -4197,9 +4197,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Table.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/table/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/table"
+        "reactSpectrum": "/react-spectrum/Table.html",
+        "webComponent": "/components/table/",
+        "storybook": "/?path=/story/table"
       }
     },
     {
@@ -4386,9 +4386,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Tabs.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/tabs/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/tabs"
+        "reactSpectrum": "/react-spectrum/Tabs.html",
+        "webComponent": "/components/tabs/",
+        "storybook": "/?path=/story/tabs"
       }
     },
     {
@@ -4423,9 +4423,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Tags.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/tags/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/tags"
+        "reactSpectrum": "/react-spectrum/Tags.html",
+        "webComponent": "/components/tags/",
+        "storybook": "/?path=/story/tags"
       }
     },
     {
@@ -4512,9 +4512,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Textarea.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/textarea/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/textarea"
+        "reactSpectrum": "/react-spectrum/Textarea.html",
+        "webComponent": "/components/textarea/",
+        "storybook": "/?path=/story/textarea"
       }
     },
     {
@@ -4593,9 +4593,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Textfield.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/textfield/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/textfield"
+        "reactSpectrum": "/react-spectrum/Textfield.html",
+        "webComponent": "/components/textfield/",
+        "storybook": "/?path=/story/textfield"
       }
     },
     {
@@ -4626,9 +4626,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Theme.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/theme/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/theme"
+        "reactSpectrum": "/react-spectrum/Theme.html",
+        "webComponent": "/components/theme/",
+        "storybook": "/?path=/story/theme"
       }
     },
     {
@@ -4727,9 +4727,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Thumbnail.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/thumbnail/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/thumbnail"
+        "reactSpectrum": "/react-spectrum/Thumbnail.html",
+        "webComponent": "/components/thumbnail/",
+        "storybook": "/?path=/story/thumbnail"
       }
     },
     {
@@ -4780,9 +4780,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Toast.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/toast/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/toast"
+        "reactSpectrum": "/react-spectrum/Toast.html",
+        "webComponent": "/components/toast/",
+        "storybook": "/?path=/story/toast"
       }
     },
     {
@@ -4845,9 +4845,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Tooltip.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/tooltip/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/tooltip"
+        "reactSpectrum": "/react-spectrum/Tooltip.html",
+        "webComponent": "/components/tooltip/",
+        "storybook": "/?path=/story/tooltip"
       }
     },
     {
@@ -4890,9 +4890,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Top.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/top/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/top"
+        "reactSpectrum": "/react-spectrum/Top.html",
+        "webComponent": "/components/top/",
+        "storybook": "/?path=/story/top"
       }
     },
     {
@@ -4911,9 +4911,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Tray.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/tray/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/tray"
+        "reactSpectrum": "/react-spectrum/Tray.html",
+        "webComponent": "/components/tray/",
+        "storybook": "/?path=/story/tray"
       }
     },
     {
@@ -4928,9 +4928,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Truncated.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/truncated/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/truncated"
+        "reactSpectrum": "/react-spectrum/Truncated.html",
+        "webComponent": "/components/truncated/",
+        "storybook": "/?path=/story/truncated"
       }
     },
     {
@@ -4945,9 +4945,9 @@
         }
       ],
       "links": {
-        "reactSpectrum": "https://react-spectrum.adobe.com/react-spectrum/Underlay.html",
-        "webComponent": "https://opensource.adobe.com/spectrum-web-components/components/underlay/",
-        "storybook": "https://opensource.adobe.com/spectrum-web-components/storybook/?path=/story/underlay"
+        "reactSpectrum": "/react-spectrum/Underlay.html",
+        "webComponent": "/components/underlay/",
+        "storybook": "/?path=/story/underlay"
       }
     }
   ]
