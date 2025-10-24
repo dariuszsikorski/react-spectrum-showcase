@@ -53,6 +53,18 @@
   background: var(--spectrum-global-color-blue-50);
 }
 
+.ScreenshotCard_wrapper {
+  position: relative;
+}
+
+.ScreenshotCard_loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
 .ScreenshotCard img {
   width: 100%;
   height: auto;
@@ -61,7 +73,8 @@
   flex: 1;
   object-fit: contain;
   object-position: top left;
-  min-height: 5rem;
+  min-height: 12rem;
+  transition: opacity 0.3s ease;
 }
 
 .ScreenshotCard_info {

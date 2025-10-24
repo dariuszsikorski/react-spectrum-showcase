@@ -5,6 +5,7 @@ import {
   Button,
   ProgressCircle
 } from '@adobe/react-spectrum'
+import { getAssetPath } from '../../utils/paths'
 import type { Component } from './types'
 
 interface ScreenshotModalProps {
@@ -82,7 +83,7 @@ export function ScreenshotModal({ component, isOpen, onClose }: ScreenshotModalP
                       </div>
                     )}
                     <img 
-                      src={`/screenshots/adobe-spectrum-v2/${variant.filename}`}
+                      src={getAssetPath(`/screenshots/adobe-spectrum-v2/${variant.filename}`)}
                       alt={`${component.title} - ${cleanVariantName}`}
                       loading="lazy"
                       onLoad={() => handleImageLoad(variant.filename)}
